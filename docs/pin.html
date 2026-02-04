@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>PIN入力</title>
+</head>
+
+<body>
+<h2>マニュアル閲覧 PIN</h2>
+
+<input id="pin" placeholder="6桁英数字">
+<button onclick="checkPin()">入室</button>
+
+<script>
+const PIN = "A1B2C3";
+
+function checkPin(){
+  if(document.getElementById("pin").value.toUpperCase() === PIN){
+    location.href="./index.html";
+  }else{
+    alert("PINが違います");
+  }
+}
+</script>
+
+</body>
+</html>

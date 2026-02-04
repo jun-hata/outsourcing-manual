@@ -1,0 +1,12 @@
+site_name: 外注マニュアル
+
+theme:
+  name: material
+  language: ja
+
+nav:
+  - はじめに: index.md
+  - 準備: 01_start.md
+  - 作業: 02_work_a.md
+  - 品質チェック: 03_quality.md
+  - FAQ: 99_faq.md
