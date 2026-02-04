@@ -1,9 +1,13 @@
 site_name: 外注リサーチマニュアル
 site_url: https://outsourcing-manual.pages.dev/
-
 theme:
   name: material
   language: ja
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
 
 nav:
   - はじめに:
@@ -20,17 +24,17 @@ nav:
       - 使用ブラウザについて: env_browser.md
       - Chatwork導入: env_chatwork.md
       - 各種拡張機能導入: env_extensions.md
-      - eBayにログイン: env_ebay_login.md
-      - e-Shipにログイン: env_eship_login.md
+      - ebayにログイン: env_ebay_login.md
+      - e-shipにログイン: env_eship_login.md
 
   - リサーチ実践:
       - リサーチを行う前に: research_before.md
       - リサーチ手順（10ステップ）: research_steps.md
       - テラピークとは: tool_terapeak.md
-      - リサーチサポートツールの初期設定: tool_support_setup.md
-      - リサーチサポートツールを使った利益計算方法（動画）: tool_support_profit_video.md
+      - リサーチサポートツール初期設定: tool_support_setup.md
+      - リサーチサポートツールで利益計算（動画）: tool_support_profit_video.md
       - リサーチ実践動画: research_video.md
-      - スプレッドシートへの入力解説動画: sheet_video.md
+      - スプレッドシート入力解説動画: sheet_video.md
 
   - 重要なポイント:
       - 検索キーワードについて: points_keyword.md
