@@ -1,33 +1,52 @@
 site_name: 外注リサーチマニュアル
+site_url: https://outsourcing-manual.pages.dev/
 
 theme:
   name: material
+  language: ja
 
 nav:
-
   - はじめに:
-      - eBayについて: 01_start.md
-      - ルール: intro_rules.md
+      - ご挨拶: intro_greeting.md
+      - eBayについて: intro_ebay_role.md
       - 報酬について: intro_payment.md
       - 禁止事項: intro_prohibited.md
 
   - 事前にやっていただく事:
-      - 管理者にGmail送信: prep_before.md
+      - 管理者にGmail送信: prep_gmail.md
+      - 請求書のひな型準備: prep_invoice.md
 
   - 環境準備:
-      - 使用ブラウザ・ログイン環境: prep_env.md
-      - Chatwork導入: prep_chatwork.md
+      - 使用ブラウザについて: env_browser.md
+      - Chatwork導入: env_chatwork.md
+      - 各種拡張機能導入: env_extensions.md
+      - eBayにログイン: env_ebay_login.md
+      - e-Shipにログイン: env_eship_login.md
 
   - リサーチ実践:
-      - 実践動画: research_video.md
+      - リサーチを行う前に: research_before.md
       - リサーチ手順（10ステップ）: research_steps.md
-      - 利益計算について: research_profit.md
+      - テラピークとは: tool_terapeak.md
+      - リサーチサポートツールの初期設定: tool_support_setup.md
+      - リサーチサポートツールを使った利益計算方法（動画）: tool_support_profit_video.md
+      - リサーチ実践動画: research_video.md
+      - スプレッドシートへの入力解説動画: sheet_video.md
+
+  - 重要なポイント:
+      - 検索キーワードについて: points_keyword.md
+      - 送料計算について: points_shipping.md
+      - リストアップ対象: points_listup.md
+      - NG対象: points_ng.md
 
   - スキルアップ:
+      - 新しいタブで開こう: skill_tabs.md
       - AI活用: skill_ai.md
       - 画像検索: skill_image.md
       - 派生リサーチ: skill_variation.md
+      - セラーカントリーの固定: skill_seller_country.md
 
   - トラブル対応:
-      - よくあるミス: support_mistakes.md
+      - 詐欺サイトについて: trouble_scam.md
+      - 計算について: trouble_calc.md
+      - よくあるミス: trouble_mistakes.md
       - FAQ: 99_faq.md
