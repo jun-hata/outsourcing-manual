@@ -15,21 +15,32 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
+  - Home: index.md
+
   - はじめに:
       - ご挨拶: intro_greeting.md
-      - eBayについて: intro_ebay_role.md
+      - eBayについて（概要）: intro_ebay_role.md
+      - eBayについて（運営方法とリサーチ担当の役割）: ebay_role.md
       - 報酬について: intro_payment.md
+      - 報酬について（旧）: compensation.md
+      - ルール: intro_rules.md
       - 禁止事項: intro_prohibited.md
+      - 禁止事項（旧）: prohibited.md
 
   - 事前にやっていただく事:
+      - 事前準備: prep_before.md
       - 管理者にGmail送信: prep_gmail.md
       - 請求書のひな型準備: prep_invoice.md
+      - Chatwork準備: prep_chatwork.md
+      - 環境準備（まとめ）: prep_env.md
+      - 管理情報登録: onboarding_info.md
 
   - 環境準備:
       - 使用ブラウザについて: env_browser.md
+      - ブラウザ設定（旧）: browser_setup.md
       - Chatwork導入: env_chatwork.md
       - 各種拡張機能導入: env_extensions.md
-      - ebayにログイン: env_ebay_login.md
+      - eBayにログイン: env_ebay_login.md
       - e-shipにログイン: env_eship_login.md
 
   - リサーチ実践:
@@ -40,6 +51,7 @@ nav:
       - リサーチサポートツールで利益計算（動画）: tool_support_profit_video.md
       - リサーチ実践動画: research_video.md
       - スプレッドシート入力解説動画: sheet_video.md
+      - 利益について（旧）: research_profit.md
 
   - 重要なポイント:
       - 検索キーワードについて: points_keyword.md
@@ -58,4 +70,12 @@ nav:
       - 詐欺サイトについて: trouble_scam.md
       - 計算について: trouble_calc.md
       - よくあるミス: trouble_mistakes.md
+      - よくあるミス（旧）: support_mistakes.md
       - FAQ: 99_faq.md
+
+  - その他:
+      - 作業開始（旧）: 01_start.md
+      - 作業A（旧）: 02_work_a.md
+      - 品質（旧）: 03_quality.md
+      - 請求書テンプレ（旧）: invoice_template.md
+      - pin（HTML）: pin.html
