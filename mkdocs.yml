@@ -1,30 +1,29 @@
-site_name: 外注マニュアル
-site_url: https://outsourcing-manual.pages.dev/
+site_name: 外注リサーチマニュアル
 
 theme:
   name: material
-  language: ja
 
 nav:
+
   - はじめに:
-      - eBayとは: index.md
-      - リサーチの役割: intro_role.md
+      - eBayについて: 01_start.md
       - ルール: intro_rules.md
-      - 報酬: intro_payment.md
+      - 報酬について: intro_payment.md
       - 禁止事項: intro_prohibited.md
 
-  - 作業準備:
-      - 事前にやっていただく事: prep_before.md
-      - 環境準備: prep_env.md
+  - 事前にやっていただく事:
+      - 管理者にGmail送信: prep_before.md
+
+  - 環境準備:
+      - 使用ブラウザ・ログイン環境: prep_env.md
       - Chatwork導入: prep_chatwork.md
 
-  - リサーチ実務:
+  - リサーチ実践:
       - 実践動画: research_video.md
-      - リサーチ手順（簡易版）: research_flow.md
-      - ステップ1〜10: research_steps.md
-      - 利益計算: research_profit.md
+      - リサーチ手順（10ステップ）: research_steps.md
+      - 利益計算について: research_profit.md
 
-  - スキルアップ・応用:
+  - スキルアップ:
       - AI活用: skill_ai.md
       - 画像検索: skill_image.md
       - 派生リサーチ: skill_variation.md
