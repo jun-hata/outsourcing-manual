@@ -54,3 +54,6 @@ nav:
       - 計算について: trouble_calc.md
       - よくあるミス: trouble_mistakes.md
       - FAQ: 99_faq.md
+extra_css:
+  - stylesheets/extra.css
+
