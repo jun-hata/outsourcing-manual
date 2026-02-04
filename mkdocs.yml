@@ -1,20 +1,13 @@
+site_name: 外注マニュアル
+site_url: https://outsourcing-manual.pages.dev/
+
+theme:
+  name: material
+  language: ja
+
 nav:
-  - はじめに:
-      - eBayとは: 01_start.md
-
-  - 作業準備:
-      - 環境準備: 02_work_a.md
-
-  - リサーチ実務:
-      - 実践動画: 03_quality.md
-      - リサーチ手順: research_flow.md
-      - ステップ1〜10: research_steps.md
-      - 利益計算: profit.md
-
-  - スキルアップ・応用:
-      - AI活用: skill_ai.md
-      - 画像検索: skill_image.md
-
-  - トラブル対応:
-      - よくあるミス: faq_mistake.md
-      - FAQ: 99_faq.md
+  - はじめに: index.md
+  - 作業準備: 01_start.md
+  - リサーチ実務: 02_work_a.md
+  - スキルアップ・応用: 03_quality.md
+  - トラブル対応: 99_faq.md
