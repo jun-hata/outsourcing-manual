@@ -24,9 +24,8 @@ nav:
       - ルール: intro_rules.md
       - 禁止事項: prohibited.md
 
-  - 契約時にやっていただく事:
-      - Chatwork導入: env_chatwork.md
-      - 必要情報の共有: required_info.md
+  - 作業開始準備:
+      - 作業開始準備: required_info.md
 
   - 作業環境準備:
       - ブラウザについて: browser_setup.md

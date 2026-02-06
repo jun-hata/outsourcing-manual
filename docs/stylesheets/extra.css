@@ -30,35 +30,31 @@
   --sec-other-bg: #f8f9fa;
   --sec-other-text: #495057;
 
-  /* ===== H2見出しカラー（##） ===== */
+  /* ===== H2見出しカラー ===== */
 
   --h2-bg-color: #f1f3f5;
   --h2-border-color: #4263eb;
   --h2-text-color: #212529;
 
-  /* ===== H3（中項目）デザイン ===== */
-  --h3-bg-color: rgba(241, 243, 245, 0.6); /* H2より弱い背景 */
-  --h3-border-color: rgba(66, 99, 235, 0.8); /* H2と同系統 */
-  --h3-text-color: #212529;
 }
 
 
 /* ===============================
-   サイドバー上部タイトルを消す
+   サイドバー上部タイトル非表示
 ================================ */
 .md-nav__title {
   display: none;
 }
 
 /* ===============================
-   ヘッダー左の本ロゴを消す
+   ヘッダーロゴ非表示
 ================================ */
 .md-header__button.md-logo {
   display: none;
 }
 
 /* ===============================
-   サイドバー大項目 共通デザイン
+   サイドバー大項目デザイン
 ================================ */
 .md-nav__item--section > .md-nav__link {
   padding: 8px 12px;
@@ -69,138 +65,81 @@
 }
 
 /* ===============================
-   サイドバー小項目 背景なし
+   小項目背景削除
 ================================ */
 .md-nav__item:not(.md-nav__item--section) > .md-nav__link {
   background: transparent !important;
 }
 
 /* ===============================
-   はじめに
+   セクションカラー
 ================================ */
+
 .md-nav__item--section:nth-of-type(1) > .md-nav__link {
   background-color: var(--sec-intro-bg);
   color: var(--sec-intro-text) !important;
 }
 
-/* ===============================
-   契約時にやっていただく事
-================================ */
 .md-nav__item--section:nth-of-type(2) > .md-nav__link {
   background-color: var(--sec-contract-bg);
   color: var(--sec-contract-text) !important;
 }
 
-/* ===============================
-   作業環境準備
-================================ */
 .md-nav__item--section:nth-of-type(3) > .md-nav__link {
   background-color: var(--sec-env-bg);
   color: var(--sec-env-text) !important;
 }
 
-/* ===============================
-   リサーチ実践
-================================ */
 .md-nav__item--section:nth-of-type(4) > .md-nav__link {
   background-color: var(--sec-research-bg);
   color: var(--sec-research-text) !important;
 }
 
-/* ===============================
-   重要なポイント
-================================ */
 .md-nav__item--section:nth-of-type(5) > .md-nav__link {
   background-color: var(--sec-important-bg);
   color: var(--sec-important-text) !important;
 }
 
-/* ===============================
-   スキルアップ
-================================ */
 .md-nav__item--section:nth-of-type(6) > .md-nav__link {
   background-color: var(--sec-skill-bg);
   color: var(--sec-skill-text) !important;
 }
 
-/* ===============================
-   トラブル対応
-================================ */
 .md-nav__item--section:nth-of-type(7) > .md-nav__link {
   background-color: var(--sec-trouble-bg);
   color: var(--sec-trouble-text) !important;
 }
 
-/* ===============================
-   その他
-================================ */
 .md-nav__item--section:nth-of-type(8) > .md-nav__link {
   background-color: var(--sec-other-bg);
   color: var(--sec-other-text) !important;
 }
 
-
 /* =====================================================
-   H2（##見出し）デザイン（添付風）
+   H2デザイン
 ===================================================== */
 
 .md-typeset h2 {
   background: var(--h2-bg-color);
   border-left: 6px solid var(--h2-border-color);
-
   padding: 16px 20px;
   border-radius: 6px;
-
   color: var(--h2-text-color);
   font-weight: 700;
-
   margin-top: 2.2em;
-  margin-bottom: 1.0em; /* 少し詰めて本文が近づきすぎないよう調整 */
-
-  line-height: 1.4;
-
-  border-bottom: none;
+  margin-bottom: 1.2em;
 }
 
 /* =====================================================
-   H3（### 中項目）デザイン（H2の子に見せる）
-   - ボックス化しない
-   - 左ライン＋薄い背景＋余白で階層を表現
+   コピー用テンプレBOX
 ===================================================== */
 
-.md-typeset h3 {
-  color: var(--h3-text-color);
-  font-weight: 700;
-
-  border-left: 4px solid var(--h3-border-color);
-  background: var(--h3-bg-color);
-
-  padding: 10px 14px;
-  border-radius: 6px;
-
-  margin-top: 1.4em;
-  margin-bottom: 0.8em;
-
-  line-height: 1.45;
-}
-
-/* H2直後のH3は詰めすぎない（見出しの連続を自然に） */
-.md-typeset h2 + h3 {
-  margin-top: 1.0em;
-}
-
-/* H3直後の本文が近すぎるのを防ぐ */
-.md-typeset h3 + p,
-.md-typeset h3 + ul,
-.md-typeset h3 + ol {
-  margin-top: 0.2em;
-}
-
-/* =====================================================
-   文字色ユーティリティ（本文内の一部だけ色を変える用）
-===================================================== */
-
-.red-text {
-  color: #d32f2f;
-  font-weight: 700;
+.copy-box {
+  background: #f8f9fa;
+  border-left: 6px solid #4263eb;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  font-family: monospace;
+  line-height: 1.7;
 }
