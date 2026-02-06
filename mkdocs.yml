@@ -22,13 +22,8 @@ nav:
       - ルール: intro_rules.md
       - 禁止事項: prohibited.md
 
-  - 事前にやっていただく事:
+  - 契約時にやっていただく事:
       - 事前準備: prep_before.md
-      - 管理者にGmail送信: prep_gmail.md
-      - 請求書のひな型準備: prep_invoice.md
-      - Chatwork準備: prep_chatwork.md
-      - 環境準備（まとめ）: prep_env.md
-      - 管理情報登録: onboarding_info.md
       - ブラウザについて: browser_setup.md
       - Chatwork導入: env_chatwork.md
       - 各種拡張機能導入: env_extensions.md
