@@ -131,15 +131,35 @@
 }
 
 /* =====================================================
-   コピー用テンプレBOX
+   コピー用テンプレBOX（H2と被らないデザイン）
+   - 左の青ラインなし
+   - 背景もH2のグレーと変える
 ===================================================== */
 
 .copy-box {
-  background: #f8f9fa;
-  border-left: 6px solid #4263eb;
-  border-radius: 8px;
-  padding: 16px 18px;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 14px 16px;
   margin: 18px 0;
-  font-family: monospace;
-  line-height: 1.7;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+/* テンプレ本文（行を潰さず、左揃えで縦に並べる） */
+.copy-box pre {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
+  line-height: 1.75;
+  white-space: pre;   /* 1行ずつ固定 */
+  overflow-x: auto;   /* 長い行は横スクロール */
+}
+
+/* =====================================================
+   文字色ユーティリティ
+===================================================== */
+
+.red-text {
+  color: #d32f2f;
+  font-weight: 700;
 }
