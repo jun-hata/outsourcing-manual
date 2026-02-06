@@ -1,3 +1,37 @@
+/* =====================================================
+   カラーテーマ設定（ここだけ変更すれば全体が変わる）
+===================================================== */
+
+:root {
+
+  /* サイドバー セクションカラー */
+  --sec-intro-bg: #fff5f5;
+  --sec-intro-text: #c92a2a;
+
+  --sec-contract-bg: #e7f5ff;
+  --sec-contract-text: #1971c2;
+
+  --sec-env-bg: #ebfbee;
+  --sec-env-text: #2b8a3e;
+
+  --sec-research-bg: #fff9db;
+  --sec-research-text: #e67700;
+
+  --sec-important-bg: #f3f0ff;
+  --sec-important-text: #5f3dc4;
+
+  --sec-skill-bg: #e3fafc;
+  --sec-skill-text: #0c8599;
+
+  --sec-trouble-bg: #fff0f6;
+  --sec-trouble-text: #a61e4d;
+
+  --sec-other-bg: #f8f9fa;
+  --sec-other-text: #495057;
+
+}
+
+
 /* ===============================
    サイドバー上部タイトルを消す
 ================================ */
@@ -34,62 +68,62 @@
    はじめに
 ================================ */
 .md-nav__item--section:nth-of-type(1) > .md-nav__link {
-  background-color: #fff5f5;
-  color: #c92a2a !important;
+  background-color: var(--sec-intro-bg);
+  color: var(--sec-intro-text) !important;
 }
 
 /* ===============================
    契約時にやっていただく事
 ================================ */
 .md-nav__item--section:nth-of-type(2) > .md-nav__link {
-  background-color: #e7f5ff;
-  color: #1971c2 !important;
+  background-color: var(--sec-contract-bg);
+  color: var(--sec-contract-text) !important;
 }
 
 /* ===============================
    作業環境準備
 ================================ */
 .md-nav__item--section:nth-of-type(3) > .md-nav__link {
-  background-color: #ebfbee;
-  color: #2b8a3e !important;
+  background-color: var(--sec-env-bg);
+  color: var(--sec-env-text) !important;
 }
 
 /* ===============================
    リサーチ実践
 ================================ */
 .md-nav__item--section:nth-of-type(4) > .md-nav__link {
-  background-color: #fff9db;
-  color: #e67700 !important;
+  background-color: var(--sec-research-bg);
+  color: var(--sec-research-text) !important;
 }
 
 /* ===============================
    重要なポイント
 ================================ */
 .md-nav__item--section:nth-of-type(5) > .md-nav__link {
-  background-color: #f3f0ff;
-  color: #5f3dc4 !important;
+  background-color: var(--sec-important-bg);
+  color: var(--sec-important-text) !important;
 }
 
 /* ===============================
    スキルアップ
 ================================ */
 .md-nav__item--section:nth-of-type(6) > .md-nav__link {
-  background-color: #e3fafc;
-  color: #0c8599 !important;
+  background-color: var(--sec-skill-bg);
+  color: var(--sec-skill-text) !important;
 }
 
 /* ===============================
    トラブル対応
 ================================ */
 .md-nav__item--section:nth-of-type(7) > .md-nav__link {
-  background-color: #fff0f6;
-  color: #a61e4d !important;
+  background-color: var(--sec-trouble-bg);
+  color: var(--sec-trouble-text) !important;
 }
 
 /* ===============================
    その他
 ================================ */
 .md-nav__item--section:nth-of-type(8) > .md-nav__link {
-  background-color: #f8f9fa;
-  color: #495057 !important;
+  background-color: var(--sec-other-bg);
+  color: var(--sec-other-text) !important;
 }
