@@ -92,19 +92,19 @@ Chromeでは、使用頻度の高い拡張機能をツールバーに固定（�
 
 ① Chrome画面右上の「拡張機能アイコン（パズルマーク）」をクリックします。
 
-![拡張機能アイコンをクリック](images/browser_setup/pin_step1.png)
+![拡張機能アイコンをクリック](images/browser_setup/pin_01.png)
 
 ---
 
 ② 表示された拡張機能一覧から、固定したい拡張機能の横にある「ピンマーク」をクリックします。
 
-![ピンマークをクリック](images/browser_setup/pin_step2.png)
+![ピンマークをクリック](images/browser_setup/pin_02.png)
 
 ---
 
 ③ ピン止めした拡張機能が、Chrome右上のツールバーに表示されます。
 
-![ツールバーに固定された状態](images/browser_setup/pin_step3.png)
+![ツールバーに固定された状態](images/browser_setup/pin_03.png)
 
 ---
 
