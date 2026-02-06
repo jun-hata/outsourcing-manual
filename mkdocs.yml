@@ -23,9 +23,10 @@ nav:
       - 禁止事項: prohibited.md
 
   - 契約時にやっていただく事:
-      - 事前準備: prep_before.md
-      - ブラウザについて: browser_setup.md
       - Chatwork導入: env_chatwork.md
+
+  - 作業環境準備:
+      - ブラウザについて: browser_setup.md
       - 各種拡張機能導入: env_extensions.md
       - eBayにログイン: env_ebay_login.md
       - e-shipにログイン: env_eship_login.md
