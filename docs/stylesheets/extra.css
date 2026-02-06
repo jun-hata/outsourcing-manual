@@ -1,3 +1,12 @@
+/* ===== サイドバー上部タイトル非表示 ===== */
+.md-nav__title {
+  display: none;
+}
+
+/* ===== ヘッダー左の本ロゴ非表示 ===== */
+.md-header__button.md-logo {
+  display: none;
+}
 
 /* ===== 大項目 背景ブロック + 文字色 ===== */
 
@@ -15,14 +24,15 @@
     color: #c92a2a !important;
 }
 
-/* 事前準備 */
+/* 契約・準備系（prep） */
 .md-nav__item--section:has(a[href*="prep"]) > .md-nav__link {
     background-color: #e7f5ff;
     color: #1971c2 !important;
 }
 
-/* 環境準備 */
-.md-nav__item--section:has(a[href*="env"]) > .md-nav__link {
+/* 環境準備（env / browser） */
+.md-nav__item--section:has(a[href*="env"]),
+.md-nav__item--section:has(a[href*="browser"]) > .md-nav__link {
     background-color: #ebfbee;
     color: #2b8a3e !important;
 }
