@@ -82,7 +82,7 @@ AIへ定型文の指示を送る場合などに使用します。
 [Awesome Screen Recorder（Chromeウェブストアはこちら）](https://chromewebstore.google.com/detail/awesome-screen-recorder-s/nlipoenfbbikpbjkfpfillcgkoblgpmj)
 
 ブラウザ上の指定範囲をスクリーンショットできるツールです。  
-不明点が発生した場合、画面を共有することでスムーズに解決できます。
+不明点が発生した場合、作業画面を共有していただくことで問題をスムーズに解決できます。
 
 ---
 
