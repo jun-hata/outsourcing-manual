@@ -1,62 +1,46 @@
-/* ===== サイドバー上部タイトル非表示 ===== */
+/* ===============================
+   サイドバー上部タイトルを消す
+================================ */
 .md-nav__title {
   display: none;
 }
 
-/* ===== ヘッダー左の本ロゴ非表示 ===== */
+/* ===============================
+   ヘッダー左の本ロゴを消す
+================================ */
 .md-header__button.md-logo {
   display: none;
 }
 
-/* ===== 大項目 背景ブロック + 文字色 ===== */
-
-/* 共通デザイン */
+/* ===============================
+   大項目 共通デザイン
+================================ */
 .md-nav__item--section > .md-nav__link {
-    padding: 8px 12px;
-    border-radius: 6px;
-    margin: 4px 0;
-    font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 4px 0;
+  font-weight: bold;
 }
 
-/* はじめに */
-.md-nav__item--section:has(a[href*="intro"]) > .md-nav__link {
-    background-color: #ffe3e3;
-    color: #c92a2a !important;
+/* ===============================
+   小項目は背景なし（強制）
+================================ */
+.md-nav__item:not(.md-nav__item--section) > .md-nav__link {
+  background: transparent !important;
 }
 
-/* 契約・準備系（prep） */
-.md-nav__item--section:has(a[href*="prep"]) > .md-nav__link {
-    background-color: #e7f5ff;
-    color: #1971c2 !important;
+/* ===============================
+   契約時にやっていただく事
+================================ */
+.md-nav__item--section:nth-of-type(2) > .md-nav__link {
+  background-color: #e7f5ff;
+  color: #1971c2 !important;
 }
 
-/* 環境準備（env / browser） */
-.md-nav__item--section:has(a[href*="env"]),
-.md-nav__item--section:has(a[href*="browser"]) > .md-nav__link {
-    background-color: #ebfbee;
-    color: #2b8a3e !important;
-}
-
-/* リサーチ実践 */
-.md-nav__item--section:has(a[href*="research"]) > .md-nav__link {
-    background-color: #f3f0ff;
-    color: #5f3dc4 !important;
-}
-
-/* 重要ポイント */
-.md-nav__item--section:has(a[href*="points"]) > .md-nav__link {
-    background-color: #fff3bf;
-    color: #e67700 !important;
-}
-
-/* スキルアップ */
-.md-nav__item--section:has(a[href*="skill"]) > .md-nav__link {
-    background-color: #e6fcf5;
-    color: #087f5b !important;
-}
-
-/* トラブル対応 */
-.md-nav__item--section:has(a[href*="trouble"]) > .md-nav__link {
-    background-color: #fff5f5;
-    color: #c92a2a !important;
+/* ===============================
+   作業環境準備
+================================ */
+.md-nav__item--section:nth-of-type(3) > .md-nav__link {
+  background-color: #ebfbee;
+  color: #2b8a3e !important;
 }
