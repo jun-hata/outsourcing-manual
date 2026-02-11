@@ -202,3 +202,25 @@
   display: block;
   height: 120px;
 }
+/* =====================================================
+   ①②③ ラベル（緑・青・ピンク）
+===================================================== */
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.8em;
+  height: 1.8em;
+  padding: 0 0.55em;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95em;
+  line-height: 1;
+  color: #fff;
+  margin-right: 0.4em;
+}
+
+.label-green { background: #2f9e44; } /* ① 緑 */
+.label-blue  { background: #1c7ed6; } /* ② 青 */
+.label-pink  { background: #d6336c; } /* ③ ピンク */
