@@ -16,7 +16,7 @@ e-shipに正しくログインができていないと、リサーチサポー�
 
 e-shipの招待メールを確認し、「アカウント有効化」をクリックしてください。
 
-![招待メール確認](images/env_eship_login/eh1.png)
+![招待メール確認](images/env_eship_login.md/eh1.png)
 
 ---
 
@@ -25,7 +25,7 @@ e-shipの招待メールを確認し、「アカウント有効化」をクリ�
 画像のように「認証メール再送信」の画面になっている場合でも、アカウント申請は完了している状態です。  
 そのまま「ログイン」ボタンを押してスキップしてください。
 
-![認証メール再送信画面](images/env_eship_login/eh2.png)
+![認証メール再送信画面](images/env_eship_login.md/eh2.png)
 
 ---
 
@@ -33,7 +33,7 @@ e-shipの招待メールを確認し、「アカウント有効化」をクリ�
 
 ご自身のGmailアドレスと、共通パスワード「e-shipresearch」を入力し、「ログイン」をクリックしてください。
 
-![ログイン情報入力](images/env_eship_login/eh3.png)
+![ログイン情報入力](images/env_eship_login.md/eh3.png)
 
 ---
 
@@ -41,7 +41,7 @@ e-shipの招待メールを確認し、「アカウント有効化」をクリ�
 
 下記のようなページになり、「ログインしました」と表示されていればログイン完了です。
 
-![ログイン完了画面](images/env_eship_login/eh4.png)
+![ログイン完了画面](images/env_eship_login.md/eh4.png)
 
 ---
 
