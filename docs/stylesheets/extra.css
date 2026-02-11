@@ -162,6 +162,38 @@
 }
 
 /* =====================================================
+   Chromeウェブストア ボタン（拡張機能リンク用）
+===================================================== */
+
+.chrome-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #4285F4;
+  color: #fff !important;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 700;
+  line-height: 1.2;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+
+.chrome-btn:hover {
+  background: #3367d6;
+}
+
+.chrome-btn:active {
+  transform: translateY(1px);
+}
+
+/* ボタン内の小さめ補足文字（任意） */
+.chrome-btn small {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* =====================================================
    ページ最下部余白（読了感向上）
 ===================================================== */
 
