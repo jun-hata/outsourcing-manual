@@ -41,6 +41,16 @@ eBay検索画面で表示される送料を、日本円ではなくドル表示�
 
 ---
 
+### ④ eBay Research Auto Filter
+
+[eBay Research Auto Filter（Chromeウェブストアはこちら）](https://chromewebstore.google.com/detail/ebay-research-auto-filter/piejoclbnemgekbakdonkicbgpjemhjk?utm_source=item-share-cb)
+
+テラピークで検索時、フィルターの自動維持を行います。  
+seller locationをJapanに固定した状態を維持するため、毎回設定を行う必要がなくなります。  
+詳しくは[テラピークとは](tool_terapeak.md)で詳しくご説明します。
+
+---
+
 ## おすすめ拡張機能
 
 こちらは必須ではありませんが、導入することで作業効率が向上します。
