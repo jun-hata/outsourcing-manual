@@ -171,24 +171,26 @@
 }
 
 /* =====================================================
-   Chromeストア ピル型ボタン
+   Chromeストア ボタン（本文と同じサイズ・細め・薄いグレー）
 ===================================================== */
 
 .chrome-btn {
   display: inline-block;
-  padding: 14px 34px;
-  background: #3a3a3a;
-  color: #ffffff !important;
-  border-radius: 999px;
+  padding: 8px 16px;              /* 小さめ */
+  background: #f1f3f5;            /* 薄いグレー */
+  color: #495057 !important;      /* 濃いグレー文字 */
+  border: 1px solid #dee2e6;      /* 薄い枠 */
+  border-radius: 999px;           /* ピル型 */
   text-decoration: none !important;
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
-  transition: 0.25s ease;
+  font-weight: 400;               /* 太字やめる */
+  font-size: inherit;             /* 本文と同じ */
+  letter-spacing: 0;              /* 装飾やめる */
+  transition: 0.2s ease;
 }
 
 .chrome-btn:hover {
-  background: #222222;
+  background: #e9ecef;
+  border-color: #ced4da;
 }
 
 /* =====================================================
