@@ -1,21 +1,36 @@
-# リサーチサポートツールの初期設定
+# リサーチサポートツール
 
-<!--
-【編集メモ】
-- このページは「外注さんがPCで見る」前提です
-- 「【ここに入力】」をあなたの文章に置き換えてください
-- 後で消したいメモは <!-- --> の中に書くとサイトに表示されません
--->
-## 初期設定の目的
-【ここに入力】
+本項では、リサーチサポートツールの導入方法と使用方法について解説します。
 
-## 動画
-<!-- YouTube等の埋め込み（必要なら） -->
-<!-- 例）<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXX" title="YouTube video" frameborder="0" allowfullscreen></iframe> -->
+---
 
-【ここに入力】
+## リサーチサポートツールの導入
 
-## ✅ 完了チェック
-- [ ] 【ここに入力】
-- [ ] 【ここに入力】
-- [ ] 【ここに入力】
+導入から初期設定までを解説しています。
+
+<iframe width="100%" height="420"
+src="https://www.youtube.com/embed/TMnt41C94Rg"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+---
+
+## リサーチサポートツールの使い方
+
+リサーチサポートツールの使い方を解説しています。  
+必要に応じて2倍速などでご確認ください。
+
+<iframe width="100%" height="420"
+src="https://www.youtube.com/embed/SIfJnmyNO-g"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+---
+
+### ▼ 動画チャプター
+
+① [0分32秒〜 初期設定](https://youtu.be/SIfJnmyNO-g?t=32)
+
+② [5分56秒〜 使い方](https://youtu.be/SIfJnmyNO-g?t=356)
