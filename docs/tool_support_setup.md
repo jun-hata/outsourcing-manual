@@ -53,7 +53,7 @@ allowfullscreen>
 必要に応じて2倍速などでご確認ください。
 
 <iframe width="100%" height="420"
-src="https://www.youtube.com/embed/SIfJnmyNO-g"
+src="https://youtu.be/OqSdDWwwgp4"
 frameborder="0"
 allowfullscreen>
 </iframe>
@@ -62,6 +62,14 @@ allowfullscreen>
 
 ### ▼ 動画チャプター
 
-① [0分32秒〜 初期設定](https://youtu.be/SIfJnmyNO-g?t=32)
+① [0分07秒〜 e-shipとの関係](https://youtu.be/SIfJnmyNO-g?t=7)
 
-② [5分56秒〜 使い方](https://youtu.be/SIfJnmyNO-g?t=356)
+② [1分29秒〜 入力箇所説明](https://youtu.be/SIfJnmyNO-g?t=89)
+
+③ [2分16秒〜 「検索ワード欄」の使い方](https://youtu.be/SIfJnmyNO-g?t=136)
+
+④ [4分19秒〜 ebay最安値商品のデータ抽出](https://youtu.be/SIfJnmyNO-g?t=259)
+
+⑤ [6分21秒〜 仕入れ先商品のデータ抽出](https://youtu.be/SIfJnmyNO-g?t=381)
+
+⑥ [14分44秒〜 e-ship転記操作方法](https://youtu.be/SIfJnmyNO-g?t=884)
