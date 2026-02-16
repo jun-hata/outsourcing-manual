@@ -224,3 +224,21 @@
 .label-green { background: #2f9e44; } /* ① 緑 */
 .label-blue  { background: #1c7ed6; } /* ② 青 */
 .label-pink  { background: #d6336c; } /* ③ ピンク */
+/* =====================================================
+   Pak条件ボックス（濃紺）
+===================================================== */
+
+.pak-box {
+  background: #0b3d91;
+  color: #ffffff;
+  padding: 18px 20px;
+  border-radius: 8px;
+  margin: 16px 0;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.pak-box p,
+.pak-box li {
+  color: #ffffff;
+}
