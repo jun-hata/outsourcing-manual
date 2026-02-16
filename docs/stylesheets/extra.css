@@ -202,6 +202,7 @@
   display: block;
   height: 120px;
 }
+
 /* =====================================================
    ①②③ ラベル（緑・青・ピンク）
 ===================================================== */
@@ -224,33 +225,57 @@
 .label-green { background: #2f9e44; } /* ① 緑 */
 .label-blue  { background: #1c7ed6; } /* ② 青 */
 .label-pink  { background: #d6336c; } /* ③ ピンク */
-/* =====================================================
-   Pak条件ボックス（濃紺）
-===================================================== */
 
-.pak-box {
-  background: #0b3d91;
-  color: #ffffff;
-  padding: 18px 20px;
-  border-radius: 8px;
-  margin: 16px 0;
-  font-weight: 600;
-  line-height: 1.8;
-}
 
-.pak-box p,
-.pak-box li {
-  color: #ffffff;
-}
 /* =====================================================
    例ボックス（背景グレー）
 ===================================================== */
 
 .example-box {
-  background: #f8f9fa;       /* 薄グレー */
+  background: #f8f9fa;             /* 薄グレー */
   border-left: 4px solid #0b3d91;  /* 濃紺ライン */
   border-radius: 8px;
   padding: 16px 18px;
   margin: 18px 0;
   line-height: 1.75;
+}
+
+/* =====================================================
+   Pak条件ボックス（オレンジ枠＋ラベル：画像②のデザイン）
+   ※既存のpak-box定義があっても、これが後勝ちで上書きされます
+===================================================== */
+
+.pak-box {
+  background: #ffffff;
+  border: 2px solid #f08c00; /* オレンジ枠 */
+  border-radius: 10px;
+  padding: 18px 18px 16px;
+  margin: 16px 0;
+}
+
+.pak-box__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f08c00;      /* オレンジ帯 */
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.95em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.pak-box__body {
+  color: #212529; /* 通常文字色 */
+  line-height: 1.8;
+}
+
+.pak-box__body ul {
+  margin: 0;
+  padding-left: 1.2em; /* リストのインデント */
+}
+
+.pak-box__body li {
+  margin: 0.35em 0;
 }

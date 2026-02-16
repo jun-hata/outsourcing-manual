@@ -126,11 +126,14 @@ Pakは、一定サイズ以内であれば
 ### Pakの条件
 
 <div class="pak-box">
-
-・実重量 2.5kg以内  
-・一定容積以内（約15,400立方cm以内）  
-・壊れにくい商品  
-
+  <div class="pak-box__label">✓ Pakの条件</div>
+  <div class="pak-box__body">
+    <ul>
+      <li>実重量 2.5kg以内</li>
+      <li>一定容積以内（約15,400立方cm以内）</li>
+      <li>壊れにくい商品</li>
+    </ul>
+  </div>
 </div>
 
 ### Pakが使用できる商品の例
