@@ -242,3 +242,15 @@
 .pak-box li {
   color: #ffffff;
 }
+/* =====================================================
+   例ボックス（背景グレー）
+===================================================== */
+
+.example-box {
+  background: #f8f9fa;       /* 薄グレー */
+  border-left: 4px solid #0b3d91;  /* 濃紺ライン */
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  line-height: 1.75;
+}
