@@ -279,3 +279,7 @@
 .pak-box__body li {
   margin: 0.35em 0;
 }
+/* example-box 内の余白調整（任意） */
+.example-box p { margin: 0 0 0.6em 0; }
+.example-box ul { margin: 0; padding-left: 1.2em; }
+.example-box li { margin: 0.25em 0; }
