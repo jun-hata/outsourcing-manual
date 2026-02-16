@@ -21,7 +21,6 @@ nav:
       - ご挨拶: intro_greeting.md
       - eBayについて: ebay_role.md
       - 報酬について: compensation.md
-      - ルール: intro_rules.md
       - 禁止事項: prohibited.md
 
   - 作業開始準備:
@@ -35,19 +34,16 @@ nav:
 
   - リサーチ実践:
       - リサーチを行う前に: research_before.md
-      - リサーチ手順（10ステップ）: research_steps.md
+      - リサーチ手順: research_steps.md
       - テラピークとは: tool_terapeak.md
-      - リサーチサポートツールの使い方: tool_support_setup.md
-      - リサーチサポートツールで利益計算（動画）: tool_support_profit_video.md
+      - リサーチサポートツールとは: tool_support_setup.md
       - リサーチ実践動画: research_video.md
       - スプレッドシート入力解説動画: sheet_video.md
-      - 利益について（旧）: research_profit.md
+      - 利益計算とは: research_profit.md
 
   - 重要なポイント:
       - 検索キーワードについて: points_keyword.md
-      - 送料計算について: points_shipping.md
-      - リストアップ対象: points_listup.md
-      - NG対象: points_ng.md
+      - 注意点: points_ng.md
 
   - スキルアップ:
       - 新しいタブで開こう: skill_tabs.md
@@ -57,12 +53,7 @@ nav:
       - セラーカントリーの固定: skill_seller_country.md
 
   - トラブル対応:
-      - 詐欺サイトについて: trouble_scam.md
-      - 計算について: trouble_calc.md
-      - よくあるミス: trouble_mistakes.md
       - FAQ: 99_faq.md
 
   - その他:
-      - 作業A（旧）: 02_work_a.md
-      - 請求書テンプレ（旧）: invoice_template.md
       - pin（HTML）: pin.html
