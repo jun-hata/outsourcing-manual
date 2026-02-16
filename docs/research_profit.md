@@ -25,6 +25,19 @@
 
 ---
 
+### 送料計算解説
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;">
+  <iframe 
+    src="https://www.youtube.com/embed/dglJQO-K_XM" 
+    title="送料計算解説"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allowfullscreen>
+  </iframe>
+</div>
+
+---
+
 ## 容積重量とは
 
 容積重量とは、荷物のサイズを重さに換算した数値のことです。
@@ -119,7 +132,9 @@
 Pakとは、配送会社が提供している専用のビニール配送袋です。
 
 Pakは、一定サイズ以内であれば  
-**容積重量の計算が不要** になります。  
+**容積重量の計算が不要** になります。
+
+### Pakの条件
 
 <div class="pak-box">
   <div class="pak-box__label">✓ Pakの条件</div>
@@ -145,7 +160,7 @@ Pakは、一定サイズ以内であれば
 </ul>
 </div>
 
-目安として、**箱ティッシュより小さい商品はPakで発送可能** と考えてください。
+目安として、**箱ティッシュ2個分程度の商品はPakで発送可能** と考えてください。
 
 ### Pak使用時の注意
 
@@ -156,8 +171,8 @@ Pakは、一定サイズ以内であれば
 <ul>
   <li>ガラス製品</li>
   <li>マグカップ</li>
+  <li>箱付きの小さいフィギュア</li>
   <li>陶器</li>
-  <li>箱付きのフィギュア</li>
 </ul>
 </div>
 
