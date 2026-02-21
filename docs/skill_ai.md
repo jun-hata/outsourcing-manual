@@ -1,17 +1,15 @@
 # ＡＩ活用
 
-ここではＡＩを活用しながら、リサーチ業務をより効率的に行う為の解説です。
-
+ここではＡＩを活用しながら、リサーチ業務をより効率的に行う為の解説です。  
 また、本ページは  
 「[拡張機能導入](../env_extensions/) ＞ おすすめ拡張機能 ＞ ②Insert Blurb」  
 が導入されている事を前提とします。
-
+ぺージ最下部の「Insert Blurbを使用したAI活用の解説動画」も併せてご確認ください。
 ---
 
 ##おすすめのＡＩ
 
-・[ChatGPT](https://chatgpt.com/)
-
+・[ChatGPT](https://chatgpt.com/)  
 ・[Gemini](https://gemini.google.com/)
 
 ### 簡単な特徴
