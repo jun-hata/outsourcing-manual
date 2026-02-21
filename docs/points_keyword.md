@@ -19,7 +19,7 @@
 「ブランド名 + 型番」  
 まずは2～3単語程度で検索してください。  
 <div class="copy-box"><pre>SONY NW-A306</pre></div>  
-あまりにも広すぎる場合は、4単語程度に調整してください。 
+あまりにも広すぎる場合は、3～4単語程度に調整してください。 
 <div class="copy-box"><pre>SONY NW-A306 32GB</pre></div>  
 
 ---
@@ -42,6 +42,15 @@
 
 ---
 
+### ■ 例外
+
+稀に、英単語が羅列される固有名詞があります。  
+<div class="copy-box"><pre>Attack on Titan = 進撃の巨人</pre></div>  
+<div class="copy-box"><pre>Weathering with You = 天気の子</pre></div>  
+この場合は固有名詞全体で１単語と理解していただいて大丈夫です。  
+また、ゲームやアニメのタイトルは日本語の直訳ではなく<span class="red-text">米国向けの正式名称</span>で検索してください。
+
+---
 ### ■ 重要な考え方
 
 アクティブ検索は「今の市場」を見る検索です。  
