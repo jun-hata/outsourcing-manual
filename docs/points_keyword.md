@@ -6,31 +6,27 @@
 ① アクティブ検索での検索キーワード  
 ② 国内仕入れ検索での検索キーワード  
 この2つを分けて解説します。
-
 ---
-
 ## ① アクティブ検索の検索キーワードについて
 
 アクティブ検索は「現在の市場価格と競合状況を見るための検索」です。  
 ここで重要なのは、<span class="red-text">余計なワードを入れないこと</span>です。
 
 ---
-
 ### ■ 基本構造
 
 基本は以下の形です。  
 「ブランド名 + 型番」  
 まずは2～3単語程度で検索してください。  
-例： <div class="copy-box"><pre>SONY NW-A306</pre></div>  
-あまりにも広すぎる場合は、4単語程度に調整してください。  
-例： <div class="copy-box"><pre>SONY NW-A306 32GB</pre></div>  
+<div class="copy-box"><pre>SONY NW-A306</pre></div>  
+あまりにも広すぎる場合は、4単語程度に調整してください。 
+<div class="copy-box"><pre>SONY NW-A306 32GB</pre></div>  
 
 ---
 
 ### ■ やってはいけない検索例
 
-例： <div class="copy-box"><pre>SONY NW-A306 Digital Audio Player 32GB Black</pre></div>  
-
+<div class="copy-box"><pre>SONY NW-A306 Digital Audio Player 32GB Black</pre></div>  
 このようにワードを増やしすぎると、「Digital」とタイトルに明記していない出品者や、「Audio Player」と書いていない出品者が検索結果から除外されます。
 その結果、本来見るべき競合が表示されなくなり、正しい市場価格を把握できなくなります。
 
@@ -63,8 +59,7 @@
 ### ■ 表記ゆれとは
 
 同じ商品でも、書き方が複数存在することを「表記ゆれ」と言います。
-
-例： <div class="copy-box"><pre>NW-A306
+<div class="copy-box"><pre>NW-A306
 NWA306
 NW A306
 A306
@@ -83,9 +78,6 @@ A-306</pre></div>
 ・型番を一部省略して検索  
 ・日本語商品名で検索  
 ・英語表記で検索  
-
-例：
-
 <div class="copy-box"><pre>SONY NW-A306
 ソニー A306
 ウォークマン A306
@@ -101,10 +93,7 @@ NW-A306もそうですが、他にもDSC-RX100M7、ATH-CK1TWのように完全�
 
 ### ■ 型番によくあるカラーリング表記
 
-機械などの型番がある商品は、型番の中にカラーコードや特定の機能コードが含まれていることがあります。
-
-例：
-
+機械などの型番がある商品は、型番の中にカラーコードや特定の機能コードが含まれていることがあります。  
 <div class="copy-box"><pre>BK ＝ Black（ブラック）
 WH ＝ White（ホワイト）
 BL ＝ Blue（ブルー）
