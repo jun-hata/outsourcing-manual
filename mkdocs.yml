@@ -37,6 +37,7 @@ nav:
       - リサーチ手順: research_steps.md
       - テラピークとは: tool_terapeak.md
       - リサーチサポートツールとは: tool_support_setup.md
+      - リサーチキーワード: research_keywords.md
       - 利益計算とは: research_profit.md
       - リサーチ実践動画: research_video.md
       - スプレッドシート入力解説動画: sheet_video.md
@@ -50,7 +51,6 @@ nav:
       - AI活用: skill_ai.md
       - 画像検索: skill_image.md
       - 派生リサーチ: skill_variation.md
-      - セラーカントリーの固定: skill_seller_country.md
 
   - トラブル対応:
       - FAQ: 99_faq.md
