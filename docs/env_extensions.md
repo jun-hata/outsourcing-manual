@@ -48,7 +48,8 @@ eBay検索画面で表示される送料を、日本円ではなくドル表示�
 <a href="https://chromewebstore.google.com/detail/requestly-supercharge-you/mdnleldcmiljblolnjhpnblkcekpdkpa" class="chrome-btn" target="_blank" rel="noopener">🧩 Chromeウェブストアで開く</a>
 
 テラピーク利用時にseller countryをJapanへ自動固定するための拡張機能です。  
-一度設定すれば毎回フィルターを設定する必要がなくなります。
+一度設定すれば毎回フィルターを設定する必要がなくなります。  
+※この拡張機能はテラピークを使用することを前提としています。リサーチを実践する直前に導入する事をおすすめします。
 
 ---
 
