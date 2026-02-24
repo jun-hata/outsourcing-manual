@@ -7,7 +7,7 @@
 
 ---
 
-## 実践動画
+## ランダムキーワードリサーチ実践動画
 
 <iframe width="100%" height="420"
 src="https://www.youtube.com/embed/qOdwWjyP1Vg"
@@ -36,3 +36,13 @@ allowfullscreen>
 ⑧ [18分00秒〜 よくあるミスと注意点](https://youtu.be/qOdwWjyP1Vg?t=1080)
 
 ⑨ [20分00秒〜 まとめ](https://youtu.be/qOdwWjyP1Vg?t=1200)
+
+---
+
+## (-ABCD)リサーチ実践動画
+
+<iframe width="100%" height="420"
+src="https://www.youtube.com/embed/n5fvnCEh69U"
+frameborder="0"
+allowfullscreen>
+</iframe>
