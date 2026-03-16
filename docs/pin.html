@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>マニュアル閲覧 PIN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f5f6f8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .box {
+      width: 100%;
+      max-width: 420px;
+      background: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 28px;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #555;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      background: #3f51b5;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      opacity: 0.95;
+    }
+
+    .error {
+      margin-top: 12px;
+      color: #d32f2f;
+      display: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>マニュアル閲覧 PIN</h1>
+    <p>PINを入力してください。</p>
+
+    <input
+      id="pin"
+      type="password"
+      placeholder="PINを入力"
+      onkeydown="if(event.key === 'Enter'){ checkPin(); }"
+    >
+
+    <button onclick="checkPin()">入室</button>
+
+    <div id="error" class="error">PINが違います</div>
+  </div>
+
+  <script>
+    const PASSWORD = "re0316";
+    const AUTH_KEY = "manual_auth_ok";
+
+    function checkPin() {
+      const input = document.getElementById("pin").value.trim();
+      const error = document.getElementById("error");
+
+      if (input === PASSWORD) {
+        sessionStorage.setItem(AUTH_KEY, "true");
+        window.location.replace("/");
+      } else {
+        error.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
