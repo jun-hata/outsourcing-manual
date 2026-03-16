@@ -14,6 +14,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/auth.js
+
 nav:
   - TOP: index.md
 
@@ -54,6 +57,3 @@ nav:
 
   - トラブル対応:
       - FAQ: 99_faq.md
-
-  - その他:
-      - pin（HTML）: pin.html
