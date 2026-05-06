@@ -28,9 +28,9 @@ nav:
 
   - 作業環境準備:
       - ブラウザについて: browser_setup.md
-      - 各種拡張機能導入: env_extensions.md
-      - eBayにログイン: env_ebay_login.md
+      - ebayのアカウント作成: env_ebay_login.md
       - e-shipにログイン: env_eship_login.md
+      - 各種拡張機能導入: env_extensions.md
 
   - リサーチ実践:
       - リサーチを行う前に: research_before.md
