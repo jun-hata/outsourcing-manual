@@ -1,0 +1,56 @@
+site_name: リサーチ外注さん専用マニュアル (2026年8月以降採用者向け)
+site_url: https://hatakeyama-manual.uk/manual-v2/
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - TOP: index.md
+
+  - はじめに:
+      - ご挨拶: intro_greeting.md
+      - eBayについて: ebay_role.md
+      - 報酬について: compensation.md
+      - 禁止事項: prohibited.md
+
+  - 作業開始準備:
+      - 作業開始準備: required_info.md
+
+  - 作業環境準備:
+      - ブラウザについて: browser_setup.md
+      - ebayのアカウント作成: env_ebay_login.md
+      - e-shipにログイン: env_eship_login.md
+      - 各種拡張機能導入: env_extensions.md
+
+  - リサーチ実践:
+      - リサーチを行う前に: research_before.md
+      - リサーチ手順: research_steps.md
+      - テラピークとは: tool_terapeak.md
+      - リサーチサポートツールとは: tool_support_setup.md
+      - リサーチキーワード: research_keywords.md
+      - 利益計算とは: research_profit.md
+      - リサーチ実践動画: research_video.md
+      - スプレッドシート入力解説動画: sheet_video.md
+
+  - 重要なポイント:
+      - 検索キーワードについて: points_keyword.md
+      - 仕入れサイトについて: points_ng.md
+
+  - スキルアップ:
+      - 新しいタブで開こう: skill_tabs.md
+      - AI活用: skill_ai.md
+      - 画像検索: skill_image.md
+      - 派生リサーチ: skill_variation.md
+
+  - トラブル対応:
+      - FAQ: 99_faq.md

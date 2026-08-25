@@ -1,0 +1,285 @@
+/* ===================================================== 
+   カラーテーマ設定（ここだけ変更すれば全体が変わる）
+===================================================== */
+
+:root {
+
+  /* ===== サイドバー セクションカラー ===== */
+
+  --sec-intro-bg: #fff5f5;
+  --sec-intro-text: #c92a2a;
+
+  --sec-contract-bg: #e7f5ff;
+  --sec-contract-text: #1971c2;
+
+  --sec-env-bg: #ebfbee;
+  --sec-env-text: #2b8a3e;
+
+  --sec-research-bg: #fff9db;
+  --sec-research-text: #e67700;
+
+  --sec-important-bg: #f3f0ff;
+  --sec-important-text: #5f3dc4;
+
+  --sec-skill-bg: #e3fafc;
+  --sec-skill-text: #0c8599;
+
+  --sec-trouble-bg: #fff0f6;
+  --sec-trouble-text: #a61e4d;
+
+  --sec-other-bg: #f8f9fa;
+  --sec-other-text: #495057;
+
+  /* ===== H2見出しカラー ===== */
+
+  --h2-bg-color: #f1f3f5;
+  --h2-border-color: #4263eb;
+  --h2-text-color: #212529;
+
+}
+
+
+/* ===============================
+   サイドバー上部タイトル非表示
+================================ */
+.md-nav__title {
+  display: none;
+}
+
+/* ===============================
+   ヘッダーロゴ非表示
+================================ */
+.md-header__button.md-logo {
+  display: none;
+}
+
+/* ===============================
+   サイドバー大項目デザイン
+================================ */
+.md-nav__item--section > .md-nav__link {
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 4px 0;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+/* ===============================
+   小項目背景削除
+================================ */
+.md-nav__item:not(.md-nav__item--section) > .md-nav__link {
+  background: transparent !important;
+}
+
+/* ===============================
+   セクションカラー
+================================ */
+
+.md-nav__item--section:nth-of-type(1) > .md-nav__link {
+  background-color: var(--sec-intro-bg);
+  color: var(--sec-intro-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(2) > .md-nav__link {
+  background-color: var(--sec-contract-bg);
+  color: var(--sec-contract-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(3) > .md-nav__link {
+  background-color: var(--sec-env-bg);
+  color: var(--sec-env-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(4) > .md-nav__link {
+  background-color: var(--sec-research-bg);
+  color: var(--sec-research-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(5) > .md-nav__link {
+  background-color: var(--sec-important-bg);
+  color: var(--sec-important-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(6) > .md-nav__link {
+  background-color: var(--sec-skill-bg);
+  color: var(--sec-skill-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(7) > .md-nav__link {
+  background-color: var(--sec-trouble-bg);
+  color: var(--sec-trouble-text) !important;
+}
+
+.md-nav__item--section:nth-of-type(8) > .md-nav__link {
+  background-color: var(--sec-other-bg);
+  color: var(--sec-other-text) !important;
+}
+
+/* =====================================================
+   H2デザイン
+===================================================== */
+
+.md-typeset h2 {
+  background: var(--h2-bg-color);
+  border-left: 6px solid var(--h2-border-color);
+  padding: 16px 20px;
+  border-radius: 6px;
+  color: var(--h2-text-color);
+  font-weight: 700;
+  margin-top: 2.2em;
+  margin-bottom: 1.2em;
+}
+
+/* =====================================================
+   中項目（H3）強調
+===================================================== */
+
+.md-typeset h3 {
+  font-weight: 700;
+  margin-top: 1.6em;
+}
+
+/* =====================================================
+   コピー用テンプレBOX
+===================================================== */
+
+.copy-box {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 18px 0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.copy-box pre {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
+  line-height: 1.75;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* =====================================================
+   文字色ユーティリティ
+===================================================== */
+
+.red-text {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
+/* =====================================================
+   Chromeストア ボタン（本文と同じサイズ・細め・薄いグレー）
+===================================================== */
+
+.chrome-btn {
+  display: inline-block;
+  padding: 8px 16px;              /* 小さめ */
+  background: #f1f3f5;            /* 薄いグレー */
+  color: #495057 !important;      /* 濃いグレー文字 */
+  border: 1px solid #dee2e6;      /* 薄い枠 */
+  border-radius: 999px;           /* ピル型 */
+  text-decoration: none !important;
+  font-weight: 400;               /* 太字やめる */
+  font-size: inherit;             /* 本文と同じ */
+  letter-spacing: 0;              /* 装飾やめる */
+  transition: 0.2s ease;
+}
+
+.chrome-btn:hover {
+  background: #e9ecef;
+  border-color: #ced4da;
+}
+
+/* =====================================================
+   ページ最下部余白（読了感向上）
+===================================================== */
+
+.md-content__inner::after {
+  content: "";
+  display: block;
+  height: 120px;
+}
+
+/* =====================================================
+   ①②③ ラベル（緑・青・ピンク）
+===================================================== */
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.8em;
+  height: 1.8em;
+  padding: 0 0.55em;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95em;
+  line-height: 1;
+  color: #fff;
+  margin-right: 0.4em;
+}
+
+.label-green { background: #2f9e44; } /* ① 緑 */
+.label-blue  { background: #1c7ed6; } /* ② 青 */
+.label-pink  { background: #d6336c; } /* ③ ピンク */
+
+
+/* =====================================================
+   例ボックス（背景グレー）
+===================================================== */
+
+.example-box {
+  background: #FFFFC8;             /* 薄グレー */
+  border-left: 4px solid #FFFFC8;  /* 濃紺ライン */
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  line-height: 1.75;
+}
+
+/* =====================================================
+   Pak条件ボックス（オレンジ枠＋ラベル：画像②のデザイン）
+   ※既存のpak-box定義があっても、これが後勝ちで上書きされます
+===================================================== */
+
+.pak-box {
+  background: #ffffff;
+  border: 2px solid #f08c00; /* オレンジ枠 */
+  border-radius: 10px;
+  padding: 18px 18px 16px;
+  margin: 16px 0;
+}
+
+.pak-box__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f08c00;      /* オレンジ帯 */
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.95em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.pak-box__body {
+  color: #212529; /* 通常文字色 */
+  line-height: 1.8;
+}
+
+.pak-box__body ul {
+  margin: 0;
+  padding-left: 1.2em; /* リストのインデント */
+}
+
+.pak-box__body li {
+  margin: 0.35em 0;
+}
+/* example-box 内の余白調整（任意） */
+.example-box p { margin: 0 0 0.6em 0; }
+.example-box ul { margin: 0; padding-left: 1.2em; }
+.example-box li { margin: 0.25em 0; }
