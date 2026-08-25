@@ -7,15 +7,24 @@ import sys
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
+def remove_readonly(func, path, exc_info):
+    import stat
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
 def main():
     root_dir = os.path.dirname(os.path.abspath(__file__))
     site_dir = os.path.join(root_dir, "site")
     
     print("[BUILD] Starting unified MkDocs build for manual-v1 and manual-v2...")
 
-    # Ensure clean site directory
+    # Clean site directory safely
     if os.path.exists(site_dir):
-        shutil.rmtree(site_dir)
+        try:
+            shutil.rmtree(site_dir, onerror=remove_readonly)
+        except Exception as e:
+            print(f"[WARN] Could not fully remove site directory: {e}")
+            
     os.makedirs(site_dir, exist_ok=True)
 
     # 1. Build manual-v1
@@ -48,8 +57,11 @@ def main():
     dst_funcs = os.path.join(site_dir, "functions")
     if os.path.exists(src_funcs):
         if os.path.exists(dst_funcs):
-            shutil.rmtree(dst_funcs)
-        shutil.copytree(src_funcs, dst_funcs)
+            try:
+                shutil.rmtree(dst_funcs, onerror=remove_readonly)
+            except Exception:
+                pass
+        shutil.copytree(src_funcs, dst_funcs, dirs_exist_ok=True)
         print("[BUILD] Copied functions/ to site/functions/")
 
     print("[SUCCESS] Build completed successfully! Output in site/")
