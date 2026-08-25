@@ -134,6 +134,7 @@
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       backdrop-filter: blur(12px);
       overflow: hidden;
+      cursor: pointer;
     }
 
     .card-v1 {
@@ -286,7 +287,7 @@
 
     <div class="grid">
       <!-- v1 Card -->
-      <a href="./manual-v1/index.html" class="card card-v1" id="link-manual-v1">
+      <a href="/manual-v1/" onclick="window.location.href='/manual-v1/'; return true;" class="card card-v1" id="link-manual-v1">
         <div>
           <div class="card-header">
             <div class="icon-box icon-v1">📚</div>
@@ -304,7 +305,7 @@
       </a>
 
       <!-- v2 Card -->
-      <a href="./manual-v2/index.html" class="card card-v2" id="link-manual-v2">
+      <a href="/manual-v2/" onclick="window.location.href='/manual-v2/'; return true;" class="card card-v2" id="link-manual-v2">
         <div>
           <div class="card-header">
             <div class="icon-box icon-v2">🚀</div>
