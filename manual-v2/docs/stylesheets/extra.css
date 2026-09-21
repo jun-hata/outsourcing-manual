@@ -232,8 +232,8 @@
 ===================================================== */
 
 .example-box {
-  background: #FFFFC8;             /* 薄グレー */
-  border-left: 4px solid #FFFFC8;  /* 濃紺ライン */
+  background: #f8f9fa;             /* 明るく清潔な薄グレー */
+  border-left: 4px solid #4263eb;  /* アクセントブルー */
   border-radius: 8px;
   padding: 16px 18px;
   margin: 18px 0;
@@ -283,3 +283,128 @@
 .example-box p { margin: 0 0 0.6em 0; }
 .example-box ul { margin: 0; padding-left: 1.2em; }
 .example-box li { margin: 0.25em 0; }
+
+/* =====================================================
+   マニュアル用デザインコンポーネント（可読性向上）
+===================================================== */
+
+/* ステップカードコンテナ */
+.step-card {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f1f3f5;
+}
+
+.step-number {
+  background: #1971c2;
+  color: #ffffff;
+  font-size: 0.85em;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.step-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #212529;
+  margin: 0;
+}
+
+/* ポイント・ハイライト枠（緑・青・黄・赤） */
+.point-box {
+  background: #f8fafc;
+  border-left: 4px solid #339af0;
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+
+.point-box--green {
+  background: #f4fce3;
+  border-left-color: #74b816;
+}
+
+.point-box--yellow {
+  background: #fff9db;
+  border-left-color: #f59f00;
+}
+
+.point-box--red {
+  background: #fff5f5;
+  border-left-color: #fa5252;
+}
+
+.point-box__title {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 2カラム比較カード（実重量 vs 容積重量など） */
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 16px 0 20px;
+}
+
+.compare-card {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.compare-card--primary {
+  border-top: 4px solid #1c7ed6;
+}
+
+.compare-card--secondary {
+  border-top: 4px solid #e67700;
+}
+
+.compare-card__title {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 8px;
+}
+
+/* ヒント・推測ガイド枠 */
+.hint-card {
+  background: #f8f9fa;
+  border: 1px dashed #adb5bd;
+  border-radius: 8px;
+  padding: 18px;
+  margin: 16px 0;
+}
+
+.hint-card__title {
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
