@@ -12,7 +12,7 @@ theme:
     - toc.follow
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra-v2.css
 
 markdown_extensions:
   - md_in_html
