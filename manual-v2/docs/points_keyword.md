@@ -1,18 +1,25 @@
 # 検索キーワードについて
 
+<div class="point-box" markdown="1">
 リサーチで一番失敗しやすいポイントが、最安値を見誤る事です。  
 つまり、リサーチの精度は「検索キーワード」で大きく変わります。  
 このページでは、  
 ① アクティブ検索での検索キーワード  
 ② 国内仕入れ検索での検索キーワード  
 この2つを分けて解説します。
+</div>
+
 ---
+
 ## ① アクティブ検索の検索キーワードについて
 
 アクティブ検索は「現在の市場価格と競合状況を見るための検索」です。  
-ここで重要なのは、<span class="red-text">余計なワードを入れないこと</span>です。
 
----
+<div class="point-box point-box--red" markdown="1">
+<div class="point-box__title">🚨 最重要ルール：余計なワードを入れない</div>
+ここで重要なのは、<span class="red-text">余計なワードを入れないこと</span>です。
+</div>
+
 ### ■ 基本構造
 
 基本は以下の形です。  
@@ -22,48 +29,53 @@
 あまりにも広すぎる場合は、3～4単語程度に調整してください。 
 <div class="copy-box"><pre>SONY NW-A306 32GB</pre></div>  
 
----
-
-### ■ やってはいけない検索例
-
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ やってはいけない検索例</div>
 <div class="copy-box"><pre>SONY NW-A306 Digital Audio Player 32GB Black</pre></div>  
 このようにワードを増やしすぎると、「Digital」とタイトルに明記していない出品者や、「Audio Player」と書いていない出品者が検索結果から除外されます。
 その結果、本来見るべき競合が表示されなくなり、正しい市場価格を把握できなくなります。
-
----
+</div>
 
 ### ■ 検索手順
 
-1回の検索で判断せず、<span class="red-text">必ず3回は検索をかけてください。</span>  
-・2～3単語で検索  
-・少し広げて検索  
-・必要に応じて1語追加して検索  
-複数回検索することで、価格帯のズレや表示漏れを防ぐことができます。
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP</span>
+  <span class="step-title">必ず3回は検索をかけてください</span>
+</div>
 
----
+1回の検索で判断せず、<span class="red-text">必ず3回は検索をかけてください。</span>  
+
+- 2～3単語で検索  
+- 少し広げて検索  
+- 必要に応じて1語追加して検索  
+
+複数回検索することで、価格帯のズレや表示漏れを防ぐことができます。
+</div>
 
 ### ■ 例外
 
+<div class="example-box" markdown="1">
 稀に、英単語が羅列される固有名詞があります。  
 <div class="copy-box"><pre>Attack on Titan = 進撃の巨人</pre></div>  
 <div class="copy-box"><pre>Weathering with You = 天気の子</pre></div>  
 この場合は固有名詞全体で１単語と理解していただいて大丈夫です。  
 また、ゲームやアニメのタイトルは日本語の直訳ではなく<span class="red-text">米国向けの正式名称</span>で検索してください。
+</div>
 
----
 ### ■ 重要な考え方
 
+<div class="point-box point-box--green" markdown="1">
 アクティブ検索は「今の市場」を見る検索です。  
 最初から絞り込みすぎると、特殊な出品や一部の価格帯だけを見てしまう可能性があります。  
 まずは最小構成で検索し、市場の平均的な価格帯を把握してください。
+</div>
 
 ---
 
 ## ② 国内の検索キーワードについて
 
 国内検索は「仕入れを見つけるための検索」です。
-
----
 
 ### ■ 表記ゆれとは
 
@@ -76,17 +88,18 @@ A-306</pre></div>
 
 しかし出品者によって書き方が違い、型番が正確に書かれていない等のケースも多くあります。
 
----
-
 ### ■ 国内検索の基本戦略
 
+<div class="point-box point-box--green" markdown="1">
+<div class="point-box__title">💡 国内検索の基本戦略</div>
 国内検索では以下を意識してください。
 
-・型番のみで検索  
-・ブランド＋型番で検索  
-・型番を一部省略して検索  
-・日本語商品名で検索  
-・英語表記で検索  
+- 型番のみで検索  
+- ブランド＋型番で検索  
+- 型番を一部省略して検索  
+- 日本語商品名で検索  
+- 英語表記で検索  
+
 <div class="copy-box"><pre>SONY NW-A306
 ソニー A306
 ウォークマン A306
@@ -97,11 +110,12 @@ NW A306</pre></div>
 <span class="red-text">アクティブ検索と同じように、複数のキーワードで何回か検索してみてください。</span>
 
 NW-A306もそうですが、他にもDSC-RX100M7、ATH-CK1TWのように完全固有の型番がある場合は、型番のみで検索を掛けてみるのも有効です。
-
----
+</div>
 
 ### ■ 型番によくあるカラーリング表記
 
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ 型番のカラー・機能コードに注意</div>
 機械などの型番がある商品は、型番の中にカラーコードや特定の機能コードが含まれていることがあります。  
 <div class="copy-box"><pre>BK ＝ Black（ブラック）
 WH ＝ White（ホワイト）
@@ -113,16 +127,27 @@ NC ＝ ノイズキャンセリング</pre></div>
 型番がほぼ同じでも、末尾のアルファベットが異なると色や機能違いの商品である可能性があります。
 
 リサーチ時は、型番全体を正確に確認し、アルファベットの羅列まで完全に一致しているか確認しましょう。
+</div>
 
 ---
 
 ## まとめ
 
-■ アクティブ検索  
-→ 市場価格を見る検索（精度重視）
+<div class="compare-grid" markdown="1">
+<div class="compare-card compare-card--primary" markdown="1">
+<div class="compare-card__title">🎯 アクティブ検索</div>
 
-■ 国内検索  
-→ 仕入れを見つける検索（発見重視）
+**→ 市場価格を見る検索（精度重視）**
+</div>
 
+<div class="compare-card compare-card--secondary" markdown="1">
+<div class="compare-card__title">🔍 国内検索</div>
+
+**→ 仕入れを見つける検索（発見重視）**
+</div>
+</div>
+
+<div class="point-box point-box--green" markdown="1">
 目的が違えば、検索の考え方も変わります。  
 この違いを理解できると、リサーチ精度と利益率は大きく向上します。
+</div>
