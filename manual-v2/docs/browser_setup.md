@@ -1,8 +1,9 @@
 # ブラウザについて
 
-このページでは、作業で使用していただくブラウザと、その基本機能について説明します。
-
+<div class="point-box" markdown="1">
+このページでは、作業で使用していただくブラウザと、その基本機能について説明します。  
 リサーチ作業をスムーズに行うため、本業務では使用するブラウザ環境を統一しています。
+</div>
 
 ---
 
@@ -20,12 +21,17 @@
 
 Google Chromeを推奨している理由は以下の通りです。
 
-・拡張機能が豊富  
-・リサーチツールとの相性が良い  
-・動作が安定している  
+<div class="example-box" markdown="1">
+- 拡張機能が豊富  
+- リサーチツールとの相性が良い  
+- 動作が安定している  
+</div>
 
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ ブラウザに関する注意点</div>
 本マニュアル内で紹介するツールや操作方法は、すべてChromeを基準に解説しています。  
 別のブラウザを使用した場合、正常に動作しない可能性がありますのでご注意ください。
+</div>
 
 ---
 
@@ -36,16 +42,14 @@ Google Chromeを推奨している理由は以下の通りです。
 リサーチ作業では、多くのページを頻繁に行き来します。  
 ブックマークを活用することで、作業効率を大きく向上させることができます。
 
----
-
 ### リサーチでよく使用するページ例
 
-・eBay公式サイト  
-・テラピーク（詳細はこちら → [テラピークとは](tool_terapeak.md)）  
-・e-ship（詳細はこちら → [e-shipにログイン](env_eship_login.md)）  
-・よく検索する仕入れ先サイト  
-
----
+<div class="example-box" markdown="1">
+- eBay公式サイト  
+- テラピーク（詳細はこちら → [テラピークとは](tool_terapeak.md)）  
+- e-ship（詳細はこちら → [e-shipにログイン](env_eship_login.md)）  
+- よく検索する仕入れ先サイト  
+</div>
 
 ブックマークの基本的な使い方については、以下の動画が分かりやすく解説されていますので参考にしてください。
 
@@ -53,7 +57,9 @@ Google Chromeを推奨している理由は以下の通りです。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a3zfoy9V4Ic" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<div class="point-box point-box--green" markdown="1">
 よく使用するサイトは、積極的にブックマークへ登録するようにしましょう。
+</div>
 
 ---
 
@@ -63,17 +69,15 @@ Google Chromeを推奨している理由は以下の通りです。
 
 リサーチ業務では、拡張機能を活用することで、以下のような作業を効率化できます。
 
-・利益計算の補助  
-・商品情報の取得  
-・作業時間の短縮  
-
----
+<div class="example-box" markdown="1">
+- 利益計算の補助  
+- 商品情報の取得  
+- 作業時間の短縮  
+</div>
 
 拡張機能の導入方法や設定については、次のページで詳しく解説します。
 
 👉 [各種拡張機能導入](env_extensions.md)
-
----
 
 また、拡張機能を初めて使用する方は、以下の記事も参考にしてください。
 
@@ -86,26 +90,42 @@ Google Chromeを推奨している理由は以下の通りです。
 Chromeでは、使用頻度の高い拡張機能をツールバーに固定（ピン止め）することができます。  
 ピン止めを行うことで、ワンクリックで拡張機能を起動でき、作業効率が向上します。
 
----
-
 ### ピン止め手順
 
-① Chrome画面右上の「拡張機能アイコン（パズルマーク）」をクリックします。
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 01</span>
+  <span class="step-title">拡張機能アイコンをクリック</span>
+</div>
+
+Chrome画面右上の「拡張機能アイコン（パズルマーク）」をクリックします。
 
 ![拡張機能アイコンをクリック](images/browser_setup/pin_01.png)
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 02</span>
+  <span class="step-title">ピンマークをクリック</span>
+</div>
 
-② 表示された拡張機能一覧から、固定したい拡張機能の横にある「ピンマーク」をクリックします。
+表示された拡張機能一覧から、固定したい拡張機能の横にある「ピンマーク」をクリックします。
 
 ![ピンマークをクリック](images/browser_setup/pin_02.png)
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 03</span>
+  <span class="step-title">ツールバーへの固定を確認</span>
+</div>
 
-③ ピン止めした拡張機能が、Chrome右上のツールバーに表示されます。
+ピン止めした拡張機能が、Chrome右上のツールバーに表示されます。
 
 ![ツールバーに固定された状態](images/browser_setup/pin_03.png)
+</div>
 
----
-
+<div class="point-box point-box--green" markdown="1">
 作業で頻繁に使用する拡張機能は、必ずピン止めしておくようにしましょう。
+</div>
+
