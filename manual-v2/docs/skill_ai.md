@@ -168,7 +168,7 @@ Pakに収まらない中型〜大型商品はすべて箱発送とし、外箱�
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;">
   <iframe 
-    src="https://www.youtube.com/embed/u1F5KpEzHtE" 
+    src="https://www.youtube.com/embed/zSDo99DUmI4" 
     title="Insert Blurbを使用したAI活用の解説動画"
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
     allowfullscreen>
