@@ -37,8 +37,8 @@
 
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/ebay%E9%80%81%E6%96%99%E8%BE%BC%E4%BE%A1%E6%A0%BC%E8%A1%A8%E7%A4%BA/hbeapmbjnjmifoceiibcobffhgppmhge)
 
-eBay検索画面で表示される送料を、日本円ではなくドル表示に変更する機能です。  
-導入後は特別な操作は不要です。
+eBayの検索画面で、通常は日本円で表示される送料をUSドルに変換し、商品価格と合算して表示する機能です。  
+送料が合算された金額は「オレンジ色」で表示されます（※送料無料の商品は黒文字のまま表示されます）。導入後の特別な操作は一切不要です。
 
 ---
 
