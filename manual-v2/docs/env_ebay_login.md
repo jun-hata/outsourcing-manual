@@ -14,7 +14,7 @@
 
 ---
 
-## ① eBayアカウントの作成
+## eBayアカウントの作成手順
 
 ### 事前に準備するもの
 
@@ -91,14 +91,12 @@
 
 ---
 
-## ② MUAAへの参加手順（作業者側）
+## MUAAと参加手順
 
-<div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 アカウント作成完了後の必須連絡</div>
-<span class="red-text">
-この手順を始める際は、アカウント作成が完了したことをチャットワークから管理者に連絡してください。  
-招待メールの有効期限は送信から24時間です。期限が切れた場合は依頼者に再送信を依頼してください。
-</span>
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ 本手順の対象者について</div>
+本項目は、「売れ筋商品をご自身で探して開拓するリサーチ」へステップアップされる方専用の手順となります。  
+こちらから配布する商品リストをもとにリサーチを進める方は、この作業（MUAAへの参加）は不要ですので、読み飛ばして次の手順へ進んでください。
 </div>
 
 <div class="point-box point-box--green" markdown="1">
