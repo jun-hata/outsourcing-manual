@@ -1,4 +1,4 @@
-# リサーチ手順（全体の流れ）
+# リサーチ手順 / リサーチ実践動画
 
 <div class="point-box" markdown="1">
 リサーチを行う前に、作業のステップを事前に確認しておきましょう。  
@@ -60,7 +60,7 @@
 
 ---
 
-## 作業の進め方
+## リサーチ実践動画
 
 <div class="point-box point-box--green" markdown="1">
 <div class="point-box__title">💡 安定した成果を出すコツ</div>
@@ -68,5 +68,10 @@
 
 正確なリサーチを積み重ねることで、販売成果につながります。  
 手順を確認しながら、丁寧に作業を行いましょう。
+</div>
+
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ 視聴前の前提条件</div>
+※本動画は拡張機能「リサーチサポートツール」「Insert Blurb」の理解を前提としています。
 </div>
 
