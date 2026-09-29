@@ -101,16 +101,11 @@
 }
 
 .md-nav__item--section:nth-of-type(6) > .md-nav__link {
-  background-color: var(--sec-skill-bg);
-  color: var(--sec-skill-text) !important;
-}
-
-.md-nav__item--section:nth-of-type(7) > .md-nav__link {
   background-color: var(--sec-trouble-bg);
   color: var(--sec-trouble-text) !important;
 }
 
-.md-nav__item--section:nth-of-type(8) > .md-nav__link {
+.md-nav__item--section:nth-of-type(7) > .md-nav__link {
   background-color: var(--sec-other-bg);
   color: var(--sec-other-text) !important;
 }
