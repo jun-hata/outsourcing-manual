@@ -21,21 +21,21 @@
 <div class="step-card" markdown="1">
 <div class="step-header">
   <span class="step-number">STEP 02</span>
-  <span class="step-title">国内の仕入れ先探し</span>
+  <span class="step-title">eBayアクティブ商品の確認（現在出品されている商品）</span>
 </div>
 
-② 国内の仕入れ先を検索し、新しいタブで複数候補をリストアップ  
-③ 価格・在庫状況などを確認し、仕入れ先を決定
+② 通常のeBay検索を使用し、リサーチ対象商品の現在の最安値を確認  
+③ 最安値の商品よりも「-1ドル」で販売価格を設定
 </div>
 
 <div class="step-card" markdown="1">
 <div class="step-header">
   <span class="step-number">STEP 03</span>
-  <span class="step-title">eBayアクティブ商品の確認（現在出品されている商品）</span>
+  <span class="step-title">国内の仕入れ先探し</span>
 </div>
 
-④ 通常のeBay検索を使用し、リサーチ対象商品の現在の最安値を確認  
-⑤ 最安値の商品よりも「-1ドル」で販売価格を設定
+④ 国内の仕入れ先を検索し、新しいタブで複数候補をリストアップ  
+⑤ 価格・在庫状況などを確認し、仕入れ先を決定
 </div>
 
 <div class="step-card" markdown="1">
