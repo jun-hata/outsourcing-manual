@@ -25,7 +25,7 @@
 
 ### ① ebayリサーチサポートツール
 
-<a href="https://chromewebstore.google.com/detail/ebay%E3%83%AA%E3%82%B5%E3%83%BC%E3%83%81%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB/mchciagjfbenagabjikoannekbnphnip" class="chrome-btn" target="_blank" rel="noopener">🧩 Chromeウェブストアで開く</a>
+<a href="https://chromewebstore.google.com/detail/ebay%E3%83%AA%E3%82%B5%E3%83%BC%E3%83%81%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB-legacy/fdhefmpbcdkclnleajeldbeafdhemlai" class="chrome-btn" target="_blank" rel="noopener">🧩 Chromeウェブストアで開く</a>
 
 仕入商品の検索作業、商品情報の取得、出品作業の支援を行うツールです。  
 
