@@ -49,23 +49,7 @@ eBayの検索画面で、通常は日本円で表示される送料をUSドル�
 
 ---
 
-## おすすめ拡張機能
-
-<div class="point-box point-box--green" markdown="1">
-<div class="point-box__title">💡 おすすめツール（任意導入）</div>
-こちらは必須ではありませんが、導入することで作業効率が向上します。
-</div>
-
-### ① Google翻訳
-
-👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
-
-海外サイトの商品説明や英語ページを翻訳する際に使用します。  
-英語ページを閲覧する機会が多いため、導入を推奨します。
-
----
-
-### ② Insert Blurb
+### ③ Insert Blurb
 
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/insert-blurb/bkoknijjdnlaenldjopbkngkoegfmejf)
 
@@ -86,7 +70,23 @@ AIへ定型文の指示を送る場合などに使用します。
 
 ---
 
-### ③ 素晴らしい画面の並べ替えとスクリーンショット
+## おすすめ拡張機能
+
+<div class="point-box point-box--green" markdown="1">
+<div class="point-box__title">💡 おすすめツール（任意導入）</div>
+こちらは必須ではありませんが、導入することで作業効率が向上します。
+</div>
+
+### ① Google翻訳
+
+👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+
+海外サイトの商品説明や英語ページを翻訳する際に使用します。  
+英語ページを閲覧する機会が多いため、導入を推奨します。
+
+---
+
+### ② 素晴らしい画面の並べ替えとスクリーンショット
 
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/awesome-screen-recorder-s/nlipoenfbbikpbjkfpfillcgkoblgpmj)
 
