@@ -14,6 +14,9 @@ theme:
 extra_css:
   - stylesheets/extra-v2.css
 
+extra_javascript:
+  - javascripts/copy-box.js
+
 markdown_extensions:
   - md_in_html
   - attr_list
