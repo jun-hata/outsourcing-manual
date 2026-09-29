@@ -42,7 +42,7 @@ eBayで最安値の商品ページを開いた状態で、赤で囲ったアイ�
 国内仕入れ先サイトの商品ページを開いた状態で、赤で囲ったアイコンをクリックすると、仕入れ価格などの情報が自動入力されます。
 
 <div class="point-box point-box--yellow" markdown="1">
-<span class="red-text">⚠️ 重量・容積重量は手入力が必要です。</span>
+<span class="red-text">重量(g)はAIで判定し、手入力を行います</span>
 </div>
 </div>
 
