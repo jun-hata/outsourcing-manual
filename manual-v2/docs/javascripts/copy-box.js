@@ -73,15 +73,16 @@ function setupCopyBoxes() {
   });
 }
 
-// Material for MkDocs の instant loading (SPA遷移) と初期読み込みの両方に対応
+// 1. 初回ロード時（即時およびDOMContentLoaded）
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", setupCopyBoxes);
+} else {
+  setupCopyBoxes();
+}
+
+// 2. Material for MkDocs の instant loading (SPAページ遷移)
 if (typeof document$ !== "undefined") {
   document$.subscribe(function () {
     setupCopyBoxes();
   });
-} else {
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setupCopyBoxes);
-  } else {
-    setupCopyBoxes();
-  }
 }
