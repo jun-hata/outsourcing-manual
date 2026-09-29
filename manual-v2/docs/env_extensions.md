@@ -123,3 +123,13 @@ AIへ定型文の指示を送る場合などに使用します。
 
 ![編集画面](images/env_extensions/ext4.png)
 </div>
+
+---
+
+### ③ Double Click Image Downloader
+
+👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/double-click-image-downlo/piheafhalbmhiaffagiaehdlnhgphcpd)
+
+保存したい画像の上でダブルクリックするだけで、PCのダウンロードフォルダに画像が保存されます。  
+フリマサイトや一部のECサイトでは画像のダウンロードができませんが、この拡張機能を使用することでダウンロードが可能です。  
+AI向けプロンプト【[送料・重量の判定](skill_ai.md#2)】の使用時に活用してください。
