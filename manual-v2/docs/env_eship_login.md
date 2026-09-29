@@ -62,7 +62,6 @@ e-shipの招待メールを確認し、「アカウント有効化」をクリ�
 ## ログインできない場合
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ ログインができない場合の確認事項</div>
 次のような場合は、作業を止めて管理者へご連絡ください。
 
 - 招待メールが届いていない  

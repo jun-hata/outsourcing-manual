@@ -1,7 +1,6 @@
 # 禁止事項
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 禁止事項の厳守について</div>
 円滑な業務運営およびトラブル防止のため、以下の行為は禁止とさせていただきます。
 </div>
 

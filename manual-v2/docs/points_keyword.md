@@ -16,7 +16,6 @@
 アクティブ検索は「現在の市場価格と競合状況を見るための検索」です。  
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 最重要ルール：余計なワードを入れない</div>
 ここで重要なのは、<span class="red-text">余計なワードを入れないこと</span>です。
 </div>
 
@@ -25,14 +24,23 @@
 基本は以下の形です。  
 「ブランド名 + 型番」  
 まずは2～3単語程度で検索してください。  
-<div class="copy-box"><pre>SONY NW-A306</pre></div>  
+
+```text
+SONY NW-A306
+```
+
 あまりにも広すぎる場合は、3～4単語程度に調整してください。 
-<div class="copy-box"><pre>SONY NW-A306 32GB</pre></div>  
+
+```text
+SONY NW-A306 32GB
+```
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ やってはいけない検索例</div>
-<div class="copy-box"><pre>SONY NW-A306 Digital Audio Player 32GB Black</pre></div>  
-このようにワードを増やしすぎると、「Digital」とタイトルに明記していない出品者や、「Audio Player」と書いていない出品者が検索結果から除外されます。
+```text
+SONY NW-A306 Digital Audio Player 32GB Black
+```
+
+このようにワードを増やしすぎると、「Digital」とタイトルに明記していない出品者や、「Audio Player」と書いていない出品者が検索結果から除外されます。  
 その結果、本来見るべき競合が表示されなくなり、正しい市場価格を把握できなくなります。
 </div>
 
@@ -91,7 +99,6 @@ A-306</pre></div>
 ### ■ 国内検索の基本戦略
 
 <div class="point-box point-box--green" markdown="1">
-<div class="point-box__title">💡 国内検索の基本戦略</div>
 国内検索では以下を意識してください。
 
 - 型番のみで検索  
@@ -100,10 +107,12 @@ A-306</pre></div>
 - 日本語商品名で検索  
 - 英語表記で検索  
 
-<div class="copy-box"><pre>SONY NW-A306
+```text
+SONY NW-A306
 ソニー A306
 ウォークマン A306
-NW A306</pre></div>
+NW A306
+```
 
 このように検索ワードを変えていくことで、安く出品されている商品を見つけられる可能性が高まります。
 
@@ -115,14 +124,16 @@ NW-A306もそうですが、他にもDSC-RX100M7、ATH-CK1TWのように完全�
 ### ■ 型番によくあるカラーリング表記
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 型番のカラー・機能コードに注意</div>
 機械などの型番がある商品は、型番の中にカラーコードや特定の機能コードが含まれていることがあります。  
-<div class="copy-box"><pre>BK ＝ Black（ブラック）
+
+```text
+BK ＝ Black（ブラック）
 WH ＝ White（ホワイト）
 BL ＝ Blue（ブルー）
 RD ＝ Red（レッド）
 ANC ＝ アクティブノイズキャンセリング
-NC ＝ ノイズキャンセリング</pre></div>
+NC ＝ ノイズキャンセリング
+```
 
 型番がほぼ同じでも、末尾のアルファベットが異なると色や機能違いの商品である可能性があります。
 

@@ -46,7 +46,6 @@
 </div>
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 外部サイト受け取りの手数料について</div>
 <span class="red-text">※2 クラウドソーシングサイトを通じてお受け取りをご希望の場合は、サイト内で発生する手数料はワーカー様負担とさせていただきますのでご了承ください。</span>
 </div>
 

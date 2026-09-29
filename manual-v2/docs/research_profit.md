@@ -38,14 +38,12 @@
 </div>
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 注意ポイント</div>
-すべての商品で<strong>「実重量」と「容積重量」の重い方が採用</strong>されるため、ぬいぐるみや箱付きフィギュアなど<strong>「軽くてかさばる商品」は、実際の重さ以上に送料が高くなりやすい</strong>点に注意してください。
+⚠️ すべての商品で<strong>「実重量」と「容積重量」の重い方が採用</strong>されるため、ぬいぐるみや箱付きフィギュアなど<strong>「軽くてかさばる商品」は、実際の重さ以上に送料が高くなりやすい</strong>点に注意してください。
 </div>
 
 ### Pak（専用袋）による送料の節約
 
 <div class="point-box point-box--green" markdown="1">
-<div class="point-box__title">💡 送料節約のコツ</div>
 薄型・小型の商品については、<strong>専用袋（Pak）</strong>を使うことで、<span class="red-text">箱発送よりも大幅に安く送ることができます。</span>
 </div>
 
@@ -195,8 +193,6 @@ AIが判定結果を出力したら、「0. 特定したスペック・商品情
 AIが認識した商品と、実際のリサーチ対象商品にズレがないかをチェックします。
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 違和感・誤認識のチェック</div>
-
 - <span class="red-text">※仕入れ元商品と全く違う商品の情報が提示されていないか必ず確認してください。</span>
 - AIはWeb検索を行って調査しますが、まれに型番の読み間違いや異なる世代の製品（例：PS3の初期型と最終型を混同するなど）と誤認することがあります。
 - <span class="red-text">明らかに仕入れ元商品と違う製品情報になっている場合</span>は、型番やメーカー名を詳しく追記して再度判定させてください。

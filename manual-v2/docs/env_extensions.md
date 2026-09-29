@@ -10,15 +10,12 @@
 ## 必須拡張機能
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 必須導入のお願い</div>
 <span class="red-text">
-この項目で紹介する拡張機能は、本業務を行う上で必須となります。  
-必ず導入をお願いいたします。  
+この項目で紹介する拡張機能は、本業務を行う上で必須となります。必ず導入をお願いいたします。  
 </span>
 </div>
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 権限付与に関する注意点</div>
 ※①・②の拡張機能については、こちらで権限を付与しないとストアで「このアイテムはご利用いただけません」と表示されます。  
 その際は管理者宛にご連絡をお願いいたします。なお、権限の付与には1～2日ほどお時間をいただく場合がございます。
 </div>
@@ -73,7 +70,6 @@ AIへ定型文の指示を送る場合などに使用します。
 ## おすすめ拡張機能
 
 <div class="point-box point-box--green" markdown="1">
-<div class="point-box__title">💡 おすすめツール（任意導入）</div>
 こちらは必須ではありませんが、導入することで作業効率が向上します。
 </div>
 

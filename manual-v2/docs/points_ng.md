@@ -60,8 +60,7 @@ Google検索の「ショッピング」には、通常のショップと詐欺�
 ![サイトデザインの例](images/points_ng/sc3.png)
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 判断に迷う場合のルール</div>
-<span class="red-text">詐欺サイトかどうか判断できない場合は、必ず管理者へ相談してください。</span>
+<span class="red-text">🚨 詐欺サイトかどうか判断できない場合は、必ず管理者へ相談してください。</span>
 </div>
 
 ---
@@ -105,8 +104,7 @@ Google検索の「ショッピング」には、通常のショップと詐欺�
 ブランド商品を扱う場合は、フリマサイトの絞り込み機能（例：メルカリの「安心鑑定」など）を活用しましょう。
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 鑑定機能利用時の注意</div>
-鑑定機能を使用しても完全に安全とは限らないため、不自然に安価な商品は避けてください。
+⚠️ 鑑定機能を使用しても完全に安全とは限らないため、不自然に安価な商品は避けてください。
 </div>
 
 ### ③ 商品説明の確認
@@ -119,7 +117,6 @@ Google検索の「ショッピング」には、通常のショップと詐欺�
 このような場合は仕入れ対象として適さない可能性があります。
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 通電のみ＝ジャンク品扱いの厳守</div>
 コンディションを確認する際、<span class="red-text">「通電のみ確認しました」など通電した事のみの記載はジャンク品として扱ってください。</span>  
 **必ず「動作確認済み」の記載まで確認をお願いします。**
 </div>

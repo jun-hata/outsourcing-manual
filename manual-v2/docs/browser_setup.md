@@ -28,7 +28,6 @@ Google Chromeを推奨している理由は以下の通りです。
 </div>
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ ブラウザに関する注意点</div>
 本マニュアル内で紹介するツールや操作方法は、すべてChromeを基準に解説しています。  
 別のブラウザを使用した場合、正常に動作しない可能性がありますのでご注意ください。
 </div>

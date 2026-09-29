@@ -10,7 +10,6 @@
 ## 表示言語について
 
 <div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 英語表示推奨のお願い</div>
 リサーチ時の表示言語は、原則「英語」のままでお願いいたします。
 
 日本語表示にすると、一部ページが正しく翻訳されないことがあり、販売データやフィルター項目の意味を誤って理解してしまう可能性があります。
@@ -29,7 +28,6 @@
 ## Ship To の確認
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 Ship To（お届け先）の確認は最重要です</div>
 「Ship To」の設定によっては、eBay上に商品が表示されなくなる場合があります。
 
 Ship Toとは「商品のお届け先情報」のことです。
@@ -104,7 +102,6 @@ eBayで主な競合となるのは、同じく日本から出品している日�
 ### 利益額が500円以上出るもののみリストアップ対象
 
 <div class="point-box point-box--red" markdown="1">
-<div class="point-box__title">🚨 必須基準：利益額500円以上</div>
 商品の利益は、仕入れ価格・送料・販売価格などを元に計算しますが、実際の発送時には以下のような要因によって利益が変動する可能性があります。
 
 - 発送時の送料変動  
