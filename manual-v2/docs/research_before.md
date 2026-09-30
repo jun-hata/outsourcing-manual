@@ -145,7 +145,7 @@ eBayで主な競合となるのは同じ日本人セラーです。ただし、*
   <span class="ebse-doc-badge ebse-doc-badge--standard" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#0654ba;">Standard</span> 通常便 ／ <span class="ebse-doc-badge ebse-doc-badge--economy" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#6c757d;">Economy</span> 小型・格安便
 
 <div class="point-box point-box--yellow" markdown="1">
-※StandardやEconomyを使っているセラーがどれだけ安く出品していても、**配送スピードが遅いためライバル最安値からは除外（無視）** します。私たちは早い配送方法で勝負するため、遅いセラーに無理に価格を合わせる必要はありません。
+※StandardやEconomyを使っているセラーがどれだけ安く出品していても、**配送スピードが遅いためライバル最安値からは除外（無視）** します。私は<span class="red-text">Expedited</span>の配送方法で勝負するため、遅いセラーに無理に価格を合わせる必要はありません。
 </div>
 </div>
 
