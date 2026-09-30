@@ -427,4 +427,30 @@
 .ebse-doc-badge--standard { background-color: #0654ba; }
 .ebse-doc-badge--economy { background-color: #6c757d; }
 
+/* ===============================
+   参考画像の視覚的境界線・枠線シャドウ
+   （白背景画像とページ背景の同化・混乱を防止）
+================================ */
+.md-content img {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px 0;
+}
+
+/* インライン絵文字等は枠線を除外 */
+.md-content .twemoji,
+.md-content img.inline-icon {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  display: inline;
+  margin: 0;
+}
+
+
 

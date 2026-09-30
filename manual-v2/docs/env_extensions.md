@@ -37,12 +37,26 @@
 eBayの検索画面で、通常は日本円で表示される送料をUSドルに変換し、商品価格と合算して表示する機能です。  
 送料が合算された金額は「オレンジ色」で表示されます（※送料無料の商品は黒文字のまま表示されます）。導入後の特別な操作は一切不要です。
 
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">表示例 1</span>
+  <span class="step-title">検索結果一覧での合算表示例</span>
+</div>
+
 ![検索結果画面での表示例](images/env_extensions/shipping_search.png)
+</div>
+
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">表示例 2</span>
+  <span class="step-title">個別商品ページ内での合算表示例</span>
+</div>
 
 個別商品ページ内でも同様に合算表示されます。  
 ※検索結果画面と個別ページで金額に差異が生じる場合がありますが、個別商品ページ内の合算金額が正しい金額です。
 
 ![個別商品ページでの表示例](images/env_extensions/shipping_detail.png)
+</div>
 
 ---
 
@@ -55,10 +69,17 @@ eBayの検索結果一覧で、日本の出品者（Japan listings）の商品�
 
 #### 使い方
 
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 01</span>
+  <span class="step-title">「Shipping」ボタンをクリック</span>
+</div>
+
 eBayの検索結果一覧で、商品タイトルの下に表示される **「Shipping」** ボタンをクリックします。  
 配送方法が自動取得され、速度に応じたカラーバッジと詳細な配送方法名が表示されます。
 
 ![Shippingボタンをクリック](images/env_extensions/shipping_extractor_click.png)
+</div>
 
 #### 表示される配送アイコン（バッジ）の種類
 
