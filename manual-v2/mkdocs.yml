@@ -13,7 +13,7 @@ theme:
     - content.code.copy
 
 extra_css:
-  - stylesheets/extra-v2.css
+  - stylesheets/extra-v2.css?v=20261001b
 
 markdown_extensions:
   - md_in_html
