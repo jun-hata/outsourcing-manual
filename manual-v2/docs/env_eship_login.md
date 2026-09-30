@@ -1,16 +1,18 @@
-# e-shipにログイン
+# e-shipとは
 
 <div class="point-box" markdown="1">
-本項ではe-shipのログインについてご説明します。  
+本項ではe-shipについてご説明します。  
 e-shipに正しくログインができていないと、リサーチサポートツールの拡張機能が動作しないためご注意ください。ログイン後はパスワードの保存を行っても問題ありません。
-
-e-shipの招待メールには時間制限が設けられています。  
-招待送信後、スムーズに初回ログイン作業が行えるよう、<span class="red-text">時間に余裕があるタイミングで事前にChatworkよりご連絡ください。</span>
 </div>
 
 ---
 
 ## e-shipログイン手順
+
+<div class="point-box point-box--yellow" markdown="1">
+e-shipの招待メールには時間制限が設けられています。  
+招待送信後、スムーズに初回ログイン作業が行えるよう、<span class="red-text">時間に余裕があるタイミングで事前にChatworkよりご連絡ください。</span>
+</div>
 
 <div class="step-card" markdown="1">
 <div class="step-header">

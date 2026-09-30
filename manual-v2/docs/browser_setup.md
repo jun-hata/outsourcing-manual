@@ -45,7 +45,7 @@ Google Chromeを推奨している理由は以下の通りです。
 
 <div class="example-box" markdown="1">
 - eBay公式サイト  
-- e-ship（詳細はこちら → [e-shipにログイン](env_eship_login.md)）  
+- e-ship（詳細はこちら → [e-shipとは](env_eship_login.md)）  
 - よく検索する仕入れ先サイト  
 </div>
 
