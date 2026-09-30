@@ -66,10 +66,10 @@ eBayの検索結果一覧で、商品タイトルの下に表示される **「S
 
 | 表示アイコン | 配送区分 | 配送スピード・主な配送方法 |
 | :---: | :---: | :--- |
-| <span class="ebse-doc-badge ebse-doc-badge--express">Express</span> | 最速便 | FedEx Priority / DHL Express など |
-| <span class="ebse-doc-badge ebse-doc-badge--expedited">Expedited</span> | 速達便 | EMS / FedEx International / Expedited Shipping など |
-| <span class="ebse-doc-badge ebse-doc-badge--standard">Standard</span> | 通常便 | ePacket / Standard Shipping など |
-| <span class="ebse-doc-badge ebse-doc-badge--economy">Economy</span> | 小型・格安便 | eBay SpeedPAK Economy / 小型包装物 など |
+| <span class="ebse-doc-badge ebse-doc-badge--express" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#d63384;">Express</span> | 最速便 | FedEx Priority / DHL Express など |
+| <span class="ebse-doc-badge ebse-doc-badge--expedited" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#e85d04;">Expedited</span> | 速達便 | EMS / FedEx International / Expedited Shipping など |
+| <span class="ebse-doc-badge ebse-doc-badge--standard" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#0654ba;">Standard</span> | 通常便 | ePacket / Standard Shipping など |
+| <span class="ebse-doc-badge ebse-doc-badge--economy" style="display:inline-block; font-size:11px; font-weight:700; padding:2px 10px; border-radius:999px; color:#fff !important; background-color:#6c757d;">Economy</span> | 小型・格安便 | eBay SpeedPAK Economy / 小型包装物 など |
 
 ※バッジの横には、実際の配送設定名（例：`eBay SpeedPAK Economy` など）が小さく表示されます。
 
