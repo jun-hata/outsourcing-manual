@@ -16,7 +16,7 @@
 </div>
 
 <div class="point-box point-box--yellow" markdown="1">
-※①・②の拡張機能については、こちらで権限を付与しないとストアで「このアイテムはご利用いただけません」と表示されます。  
+※①・②・③の拡張機能については、こちらで権限を付与しないとストアで「このアイテムはご利用いただけません」と表示されます。  
 その際は管理者宛にご連絡をお願いいたします。なお、権限の付与には1～2日ほどお時間をいただく場合がございます。
 </div>
 
@@ -46,7 +46,36 @@ eBayの検索画面で、通常は日本円で表示される送料をUSドル�
 
 ---
 
-### ③ Insert Blurb
+### ③ eBay配送方法表示ツール（eBay Search Shipping Method Extractor）
+
+👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/jkfgbjebhacggddhcdfeabaichfackkh)
+
+eBayの検索結果一覧で、日本の出品者（Japan listings）の商品に対して「Shipping」ボタンを追加する拡張機能です。  
+個別商品ページを1つずつ開くことなく、検索一覧画面上でワンクリックで配送方法（配送スピード・配送業者）を確認できます。
+
+#### 使い方
+
+eBayの検索結果一覧で、商品タイトルの下に表示される **「Shipping」** ボタンをクリックします。  
+配送方法が自動取得され、速度に応じたカラーバッジと詳細な配送方法名が表示されます。
+
+![Shippingボタンをクリック](images/env_extensions/shipping_extractor_click.png)
+
+#### 表示される配送アイコン（バッジ）の種類
+
+配送スピードに応じて、以下の4色のバッジで分かりやすく表示されます：
+
+| 表示アイコン | 配送区分 | 配送スピード・主な配送方法 |
+| :---: | :---: | :--- |
+| <span class="ebse-doc-badge ebse-doc-badge--express">Express</span> | 最速便 | FedEx Priority / DHL Express など |
+| <span class="ebse-doc-badge ebse-doc-badge--expedited">Expedited</span> | 速達便 | EMS / FedEx International / Expedited Shipping など |
+| <span class="ebse-doc-badge ebse-doc-badge--standard">Standard</span> | 通常便 | ePacket / Standard Shipping など |
+| <span class="ebse-doc-badge ebse-doc-badge--economy">Economy</span> | 小型・格安便 | eBay SpeedPAK Economy / 小型包装物 など |
+
+※バッジの横には、実際の配送設定名（例：`eBay SpeedPAK Economy` など）が小さく表示されます。
+
+---
+
+### ④ Insert Blurb
 
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/insert-blurb/bkoknijjdnlaenldjopbkngkoegfmejf)
 
