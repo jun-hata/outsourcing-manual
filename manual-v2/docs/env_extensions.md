@@ -46,7 +46,7 @@ eBayの検索画面で、通常は日本円で表示される送料をUSドル�
 
 ---
 
-### ③ eBay配送方法表示ツール（eBay Search Shipping Method Extractor）
+### ③ eBay配送方法表示ツール（eBay Search Shipping Method Extractor） {: #shipping-extractor }
 
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/jkfgbjebhacggddhcdfeabaichfackkh)
 
