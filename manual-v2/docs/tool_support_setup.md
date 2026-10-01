@@ -30,7 +30,7 @@
 </div>
 
 eBayの最安値商品の情報を入力する箇所です。  
-eBayで最安値の商品ページを開いた状態で、赤で囲ったアイコンをクリックすると、必要な商品情報を自動で取得し、販売価格を「-0.5ドル」で自動設定します。
+eBayで最安値の商品ページを開いた状態で、赤で囲ったアイコンをクリックすると、必要な商品情報を自動で取得し、販売価格を「-1ドル」で自動設定します。
 </div>
 
 <div class="step-card" markdown="1">
@@ -68,15 +68,4 @@ src="https://www.youtube.com/embed/f6TJrUXMtrI"
 frameborder="0"
 allowfullscreen>
 </iframe>
-
-### ▼ 動画チャプター
-
-<div class="example-box" markdown="1">
-- ① [0分07秒〜 e-shipとの関係](https://youtu.be/OqSdDWwwgp4?t=7)  
-- ② [1分29秒〜 入力箇所説明](https://youtu.be/OqSdDWwwgp4?t=89)  
-- ③ [2分16秒〜 「検索ワード欄」の使い方](https://youtu.be/OqSdDWwwgp4?t=136)  
-- ④ [4分19秒〜 ebay最安値商品のデータ抽出](https://youtu.be/OqSdDWwwgp4?t=259)  
-- ⑤ [6分21秒〜 仕入れ先商品のデータ抽出](https://youtu.be/OqSdDWwwgp4?t=381)  
-- ⑥ [14分44秒〜 e-ship転記操作方法](https://youtu.be/OqSdDWwwgp4?t=884)  
-</div>
 
