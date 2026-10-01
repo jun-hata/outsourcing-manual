@@ -402,26 +402,24 @@
   margin: 0;
 }
 
-/* ポイント・ハイライト枠（緑・青・黄・赤） */
+/* ポイント・ハイライト枠（緑・黄を廃止し背景と同系色の白へ統一） */
 .point-box {
-  background: #f8fafc;
-  border: none !important;
-  border-left: none !important;
+  background: #ffffff;
+  border: 1px solid #e2e8f0 !important;
   border-radius: 8px;
   padding: 16px 20px;
   margin: 16px 0;
 }
 
-.point-box--green {
-  background: #f4fce3;
-}
-
+.point-box--green,
 .point-box--yellow {
-  background: #fff9db;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
 }
 
 .point-box--red {
   background: #fff5f5;
+  border: 1px solid #fed7d7 !important;
 }
 
 /* Admonition共通リセット */
