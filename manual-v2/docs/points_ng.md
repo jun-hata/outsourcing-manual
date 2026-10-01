@@ -190,4 +190,58 @@ eBayで商品が売れてからの発送期日は10営業日に設定してい�
 
 ### ③ Amazonの注意点
 
+Amazonの中古品を仕入れ先として指定する際の注意点です。  
+（※[リサーチ実践動画](research_steps.md)の17分00秒〜でも解説しています）
+
+<div class="point-box" markdown="1">
+中古商品の場合は、**商品ページのTOP画像の商品は届かず**、特定の操作を行わないと実物の画像を見ることができません。  
+必ず以下の手順に従って実物の画像とコンディションを確認してください。
+</div>
+
+#### 確認手順
+
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 01</span>
+  <span class="step-title">「オプションを表示」をクリック</span>
+</div>
+
+Amazonの検索結果一覧で中古商品の取り扱いがある場合、**「オプションを表示」** ボタンが表示されますのでクリックします。
+
+![オプションを表示](images/points_ng/sc8.png)
+</div>
+
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 02</span>
+  <span class="step-title">「すべての出品を表示」をクリック</span>
+</div>
+
+商品ページを開いたあと、**「すべての出品を表示」** をクリックします。
+
+※商品ページ上部に表示されているTOP画像は出品商品とは無関係（代表画像）ですのでご注意ください。
+
+![すべての出品を表示](images/points_ng/sc9.png)
+</div>
+
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 03</span>
+  <span class="step-title">「もっと見る」をクリックして実物画像と説明を確認</span>
+</div>
+
+出品者一覧が開き、価格の安い順に商品が並びます。ここに載っている商品画像が**実際に届く商品**です。
+
+一番上（最安値）の商品の画像を見たい場合は、**「もっと見る」** をクリックすると確認できます。
+
+![もっと見るをクリック](images/points_ng/sc10.png)
+</div>
+
+<div class="point-box point-box--red" markdown="1">
+<span class="red-text">**必ず実物画像の確認と商品説明を読んでから仕入れ先に指定してください。**</span>  
+<br>
+<span class="red-text">**リサーチサポートツールの商品情報吸い上げの際はワンクリックに対応していないので、「ページ上の価格を選択して取得」からお願いします。**</span>
+</div>
+
+
 
