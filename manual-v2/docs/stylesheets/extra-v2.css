@@ -40,6 +40,19 @@
   --link-color: #00a784;
   --link-hover-color: #008266;
 
+  /* ===== ヘッダーカラー ===== */
+  --md-primary-fg-color: #2e9a86;
+  --md-primary-fg-color--light: #3ab19b;
+  --md-primary-fg-color--dark: #248170;
+
+}
+
+/* ===============================
+   ヘッダーカラー
+================================ */
+.md-header,
+.md-tabs {
+  background-color: #2e9a86 !important;
 }
 
 /* =====================================================
