@@ -131,18 +131,19 @@
 }
 
 /* =====================================================
-   中項目（H3）強調
+   中項目（H3）サイドバーデザイン
 ===================================================== */
 
 .md-typeset h3 {
-  font-size: 1.25em !important;
+  font-size: 1.35em !important;
   font-weight: 700 !important;
   color: #1e293b !important;
-  background: #f1f5f9 !important;
-  border-left: 5px solid #475569 !important;
-  padding: 8px 14px !important;
-  border-radius: 4px !important;
-  margin-top: 2.4em !important;
+  background: transparent !important;
+  border: none !important;
+  border-left: 6px solid #00a784 !important;
+  padding: 4px 0 4px 14px !important;
+  border-radius: 0 !important;
+  margin-top: 2.2em !important;
   margin-bottom: 1em !important;
 }
 
