@@ -307,9 +307,10 @@
 
 .example-box {
   background: #f8f9fa;             /* 明るく清潔な薄グレー */
-  border-left: 4px solid #4263eb;  /* アクセントブルー */
+  border: none !important;
+  border-left: none !important;
   border-radius: 8px;
-  padding: 16px 18px;
+  padding: 16px 20px;
   margin: 18px 0;
   line-height: 1.75;
 }
@@ -404,25 +405,32 @@
 /* ポイント・ハイライト枠（緑・青・黄・赤） */
 .point-box {
   background: #f8fafc;
-  border-left: 4px solid #339af0;
-  border-radius: 0 8px 8px 0;
+  border: none !important;
+  border-left: none !important;
+  border-radius: 8px;
   padding: 16px 20px;
   margin: 16px 0;
 }
 
 .point-box--green {
   background: #f4fce3;
-  border-left-color: #74b816;
 }
 
 .point-box--yellow {
   background: #fff9db;
-  border-left-color: #f59f00;
 }
 
 .point-box--red {
   background: #fff5f5;
-  border-left-color: #fa5252;
+}
+
+/* Admonition共通リセット */
+.md-typeset .admonition,
+.md-typeset details {
+  border: none !important;
+  border-left: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
 }
 
 .point-box__title {
