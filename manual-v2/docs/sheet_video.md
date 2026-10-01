@@ -20,4 +20,16 @@ frameborder="0"
 allowfullscreen>
 </iframe>
 
+### ▼ 動画チャプター
+
+<div class="example-box" markdown="1">
+- ① [0分00秒〜 動画の概要と目的](https://youtu.be/oujx09I3Y74?t=0)  
+- ② [1分00秒〜 入力全体の流れ](https://youtu.be/oujx09I3Y74?t=60)  
+- ③ [3分00秒〜 必須入力項目の説明](https://youtu.be/oujx09I3Y74?t=180)  
+- ④ [6分00秒〜 送料・重量入力のポイント](https://youtu.be/oujx09I3Y74?t=360)  
+- ⑤ [9分00秒〜 利益計算の確認方法](https://youtu.be/oujx09I3Y74?t=540)  
+- ⑥ [12分00秒〜 よくある入力ミス](https://youtu.be/oujx09I3Y74?t=720)  
+- ⑦ [15分00秒〜 最終チェック方法](https://youtu.be/oujx09I3Y74?t=900)  
+- ⑧ [18分00秒〜 まとめ](https://youtu.be/oujx09I3Y74?t=1080)  
+</div>
 
