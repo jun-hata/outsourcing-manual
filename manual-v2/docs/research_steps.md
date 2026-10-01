@@ -62,16 +62,22 @@
 
 ## リサーチ実践動画
 
+<div class="point-box point-box--yellow" markdown="1">
+<div class="point-box__title">⚠️ 視聴前の前提条件</div>
+※本動画は拡張機能「リサーチサポートツール」「Insert Blurb」の理解を前提としています。
+</div>
+
+<iframe width="100%" height="420"
+src="https://www.youtube.com/embed/Y63ukaYJ83w"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
 <div class="point-box point-box--green" markdown="1">
 <div class="point-box__title">💡 安定した成果を出すコツ</div>
 上記①～⑦の手順を繰り返し行い、リサーチを進めていきます。
 
 正確なリサーチを積み重ねることで、販売成果につながります。  
 手順を確認しながら、丁寧に作業を行いましょう。
-</div>
-
-<div class="point-box point-box--yellow" markdown="1">
-<div class="point-box__title">⚠️ 視聴前の前提条件</div>
-※本動画は拡張機能「リサーチサポートツール」「Insert Blurb」の理解を前提としています。
 </div>
 

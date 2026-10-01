@@ -66,7 +66,7 @@ allowfullscreen>
 必要に応じて2倍速などでご確認ください。
 
 <iframe width="100%" height="420"
-src="https://www.youtube.com/embed/OqSdDWwwgp4"
+src="https://www.youtube.com/embed/f6TJrUXMtrI"
 frameborder="0"
 allowfullscreen>
 </iframe>
