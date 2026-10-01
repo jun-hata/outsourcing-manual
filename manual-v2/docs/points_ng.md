@@ -208,7 +208,7 @@ Amazonの中古品を仕入れ先として指定する際の注意点です。
 
 Amazonの検索結果一覧で中古商品の取り扱いがある場合、**「オプションを表示」** ボタンが表示されますのでクリックします。
 
-![オプションを表示](images/points_ng/sc8.png)
+![オプションを表示](images/points_ng/sc10.png)
 </div>
 
 <div class="step-card" markdown="1">
@@ -234,7 +234,7 @@ Amazonの検索結果一覧で中古商品の取り扱いがある場合、**「
 
 一番上（最安値）の商品の画像を見たい場合は、**「もっと見る」** をクリックすると確認できます。
 
-![もっと見るをクリック](images/points_ng/sc10.png)
+![もっと見るをクリック](images/points_ng/sc8.png)
 </div>
 
 <div class="point-box point-box--red" markdown="1">
