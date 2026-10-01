@@ -43,10 +43,10 @@ Ship Toとは「商品のお届け先情報」のことです。
 <div class="step-card" markdown="1">
 <div class="step-header">
   <span class="step-number">STEP 01</span>
-  <span class="step-title">画面右上の国旗を確認</span>
+  <span class="step-title">画面上部のお届け先を確認</span>
 </div>
 
-画面右上の国旗を確認します。
+画面上部のお届け先（Japan Add address）を確認します。
 
 ![Ship To確認](images/research_before/ship1.png)
 </div>
@@ -57,7 +57,7 @@ Ship Toとは「商品のお届け先情報」のことです。
   <span class="step-title">お届け先をアメリカに変更</span>
 </div>
 
-日本になっている場合は「Ship to」をクリックし、プルダウンから「United States（アメリカ）」を選択します。
+お届け先をクリックし、プルダウンから「United States」を選択します。
 
 ![Ship To変更](images/research_before/ship2.png)
 </div>
@@ -68,7 +68,7 @@ Ship Toとは「商品のお届け先情報」のことです。
   <span class="step-title">設定を適用する</span>
 </div>
 
-「Done」をクリックして適用します。
+「Confirm」をクリックして適用します。
 
 ![Ship To確認](images/research_before/ship3.png)
 </div>
