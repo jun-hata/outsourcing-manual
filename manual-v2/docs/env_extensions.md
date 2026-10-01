@@ -56,7 +56,7 @@ eBayの検索画面で、通常は日本円で表示される送料をUSドル�
 
 ### ③ eBay配送方法表示ツール（eBay Search Shipping Method Extractor） {: #shipping-extractor }
 
-👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/jkfgbjebhacggddhcdfeabaichfackkh)
+👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/ebay-search-shipping-meth/bffnanpgikeckdlppfdlcacihahnknjc?hl=ja&authuser=0)
 
 eBayの検索結果一覧で、日本の出品者（Japan listings）の商品に対して「Shipping」ボタンを追加する拡張機能です。  
 個別商品ページを1つずつ開くことなく、検索一覧画面上でワンクリックで配送方法（配送スピード・配送業者）を確認できます。
