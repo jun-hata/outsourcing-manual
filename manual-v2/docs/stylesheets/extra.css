@@ -93,28 +93,31 @@
 }
 
 /* ===============================
-   小項目（ページリンク）スタイル & ホバー・アクティブ統一
+   小項目（ページリンク）スタイル & ホバー・アクティブ統一（文字色のみ変化）
 ================================ */
 .md-nav__item:not(.md-nav__item--section) > .md-nav__link {
-  background: transparent;
-  border-radius: 4px;
+  background: transparent !important;
   padding: 6px 10px;
-  transition: color 0.15s ease, background-color 0.15s ease;
+  color: #495057;
+  transition: color 0.15s ease;
 }
 
-/* ホバー時（カーソルを合わせたとき）とアクティブ時（クリック後）の色を完全一致 */
+/* ホバー時（カーソルを合わせたとき）とアクティブ時（クリック後・現在地）は背景色は変えず、文字色のみ【#00a784】+太字に変更 */
 .md-nav__item:not(.md-nav__item--section) > .md-nav__link:hover,
 .md-nav__item:not(.md-nav__item--section) > .md-nav__link--active,
 .md-nav__item:not(.md-nav__item--section).md-nav__item--active > .md-nav__link {
   color: #00a784 !important;
-  background-color: #e6f6f3 !important;
-  font-weight: 600 !important;
+  background-color: transparent !important;
+  background: none !important;
+  font-weight: 700 !important;
 }
 
 /* 右側目次（ページ内TOC）のホバーとアクティブ色も統一 */
 .md-nav--secondary .md-nav__link:hover,
 .md-nav--secondary .md-nav__link--active {
   color: #00a784 !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
 }
 
 /* ===============================
