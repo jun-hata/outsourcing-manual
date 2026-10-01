@@ -32,8 +32,7 @@
 
   /* ===== H2見出しカラー ===== */
 
-  --h2-bg-color: #f1f3f5;
-  --h2-border-color: #4263eb;
+  --h2-bg-color: #e6f6f3;
   --h2-text-color: #212529;
 
 }
@@ -116,9 +115,10 @@
 
 .md-typeset h2 {
   background: var(--h2-bg-color);
-  border-left: 6px solid var(--h2-border-color);
-  padding: 16px 20px;
-  border-radius: 6px;
+  border: none !important;
+  border-left: none !important;
+  padding: 14px 20px;
+  border-radius: 0;
   color: var(--h2-text-color);
   font-weight: 700;
   margin-top: 2.2em;
