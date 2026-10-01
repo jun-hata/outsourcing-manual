@@ -44,7 +44,7 @@
 ### Pak（専用袋）による送料の節約
 
 <div class="point-box point-box--green" markdown="1">
-薄型・小型の商品については、<strong>専用袋（Pak）</strong>を使うことで、<span class="red-text">箱発送よりも大幅に安く送ることができます。</span>
+薄型・小型の商品については、<strong>専用袋（Pak）</strong>を使うことで、箱発送よりも大幅に安く送ることができます。
 </div>
 
 ---

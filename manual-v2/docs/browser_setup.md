@@ -29,7 +29,7 @@ Google Chromeを推奨している理由は以下の通りです。
 
 <div class="point-box point-box--yellow" markdown="1">
 本マニュアル内で紹介するツールや操作方法は、すべてChromeを基準に解説しています。  
-別のブラウザを使用した場合、正常に動作しない可能性がありますのでご注意ください。
+<span class="marker-yellow">別のブラウザを使用した場合、正常に動作しない可能性がありますのでご注意ください。</span>
 </div>
 
 ---
@@ -123,7 +123,5 @@ Chrome画面右上の「拡張機能アイコン（パズルマーク）」を�
 ![ツールバーに固定された状態](images/browser_setup/pin_03.png)
 </div>
 
-<div class="point-box point-box--green" markdown="1">
 作業で頻繁に使用する拡張機能は、必ずピン止めしておくようにしましょう。
-</div>
 
