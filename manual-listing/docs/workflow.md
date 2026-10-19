@@ -1,56 +1,49 @@
 # 出品作業の一連の流れ（STEP①〜⑩）
 
-このページでは、スプレッドシートを開いてからeBayへ出品完了し、Item IDを記録するまでの**全手順（STEP①〜⑩）**を1本の流れで解説しています。
-
-日常の出品作業時は、このページを上から順に進めることでスムーズに作業を完結できます。
-
----
-
-## 全体フロー概要
-
-```mermaid
-flowchart TD
-    S1["STEP① 仕入れ元を開く"] --> S2["STEP② リサーチサポートツールで送料・重量確認"]
-    S2 --> S3["STEP③ eBayで最安値リサーチ"]
-    S3 --> S4["STEP④ eShipへ転記・利益確認"]
-    S4 --> S5["STEP⑤ Geminiでタイトル作成"]
-    S5 --> S6["STEP⑥ メルカリで画像収集"]
-    S6 --> S7["STEP⑦ SKU・送料ポリシー設定"]
-    S7 --> S8["STEP⑧ eBay出品画面の入力・広告設定"]
-    S8 --> S9["STEP⑨ 最終確認・出品実行"]
-    S9 --> S10["STEP⑩ Item ID記録・フィードバック対応"]
-```
+<div class="point-box" markdown="1">
+スプレッドシートを開いてからeBayへ出品完了し、Item IDを記録するまでの**全手順（STEP 01〜10）**を解説しています。  
+作業時はこのページを上から順に進めることで、スムーズに出品作業を完結できます。
+</div>
 
 ---
 
-## <span class="step-badge">STEP①</span> 仕入れ元（Yahoo!フリマ等）を開く <span class="time-badge">0:10~</span>
+## 出品作業フロー確認
 
-### 📖 操作手順
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 01</span>
+  <span class="step-title">仕入れ元（Yahoo!フリマ等）を開く</span>
+</div>
+
 1. 配布された**管理用Googleスプレッドシート**を開きます。
 2. 作業対象行の **「J列（仕入れ元URL）」** にあるリンク（Yahoo!フリマなど）を確認します。
 3. URLを右クリックし、「リンクを新しいタブで開く」で仕入れ元の出品ページを表示します。
 
-> [!TIP]
-> 複数タブを同時に開きすぎると混乱しやすいため、1商品ずつタブを管理して進めるのがおすすめです。
+※1商品ずつタブを管理して進めると混乱を防げます。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 02</span>
+  <span class="step-title">ebayリサーチサポートツールで送料・重量確認</span>
+</div>
 
-## <span class="step-badge">STEP②</span> ebayリサーチサポートツールで送料・重量確認 <span class="time-badge">0:27~</span>
-
-### 📖 操作手順
 1. 仕入れ元ページ（Yahoo!フリマ）を開いた状態で、Chrome拡張機能 **「ebayリサーチサポートツール」** のアイコンをクリックします。
-2. 表示されたポップアップ画面で **「送料を取得」** をクリックします。
+2. 表示された画面で **「送料を取得」** をクリックします。
 3. スプレッドシートの **G列（商品重量）** に記載されている数値（例: `202` [g]）を確認し、ツールの「重量」入力欄に正確に入力します。
 
-> [!WARNING]
-> **重量の入力ミスに注意！**  
-> 重量がずれると送料計算が狂い、赤字出品の原因になります。スプレッドシート記載のグラム数（g）を正確に入力してください。
+<div class="point-box point-box--red" markdown="1">
+<div class="point-box__title">⚠️ 重量の入力ミスに注意</div>
+重量がずれると送料計算が狂い、赤字出品の原因になります。スプレッドシート記載のグラム数（g）を正確に入力してください。
+</div>
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 03</span>
+  <span class="step-title">eBayで最安値リサーチ（Sold & Active）</span>
+</div>
 
-## <span class="step-badge">STEP③</span> eBayで最安値リサーチ（Sold & Active） <span class="time-badge">0:53~</span>
-
-### 📖 操作手順
 1. Chrome拡張機能 **「Buy and sell all things on eBay」** をクリックし、eBayの検索ページを開きます。
 2. **Sold Listing（販売済み）の確認**:
    - フィルターで **「Japan」** を選択し、日本セラーの販売履歴に絞り込みます。
@@ -58,101 +51,103 @@ flowchart TD
 3. **Active Listing（出品中）の確認**:
    - 現在出品中の最安値商品を特定し、その商品ページを開きます。
 
-> [!IMPORTANT]
-> **検索キーワードの確認**  
-> ツールが自動抽出したキーワードがずれていると、別商品が表示されることがあります。商品名や画像を確認し、必要に応じて手動でキーワードを微調整してください。  
-> 詳しい判断基準は [eBay最安値の特定と判断基準（Sold/Active・キーワード調整）（仮）](guide_ebay_research.md) を参照してください。
+※検索キーワードの調整や詳しい判断基準は [最安値リサーチの判断基準（仮）](guide_ebay_research.md) を参照してください。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 04</span>
+  <span class="step-title">eShipへ情報転記 & 利益確認（500円ルール）</span>
+</div>
 
-## <span class="step-badge">STEP④</span> eShipへ情報転記 & 利益確認（500円ルール） <span class="time-badge">1:29~ / 3:35~</span>
-
-### 📖 操作手順
 1. eBayの出品中（Active）最安値ページを開いた状態で、Chrome拡張機能 **「eShip」** をクリックします。
-2. **「商品情報取得」ボタン（電球アイコン）** をクリックします。
-   - eBay URL、Item ID、商品名、最安値、送料、カテゴリIDなどが自動転記されます。
+2. **「商品情報取得」ボタン（電球アイコン）** をクリックし、eBay URL、Item ID、商品名、最安値、送料などを自動転記させます。
 3. eShipポップアップ下部の **「eShip転記」** ボタンを押し、利益計算ページへ移動します。
 4. **利益額が「500円以上」** あることを必ず確認します。
 
-> [!CAUTION]
-> **利益500円未満は出品ストップ！**  
-> 利益が500円を下回る場合は出品を見送るか、管理者・リサーチ担当者へ確認してください。確認せずにそのまま出品することは厳禁です。
+<div class="point-box point-box--red" markdown="1">
+<div class="point-box__title">🚫 利益500円未満は出品ストップ</div>
+利益が500円を下回る場合は出品を見送るか、管理者・リサーチ担当者へ確認してください。確認せずにそのまま出品することは厳禁です。
+</div>
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 05</span>
+  <span class="step-title">Gemini（AI）でSEOタイトル作成（80文字）</span>
+</div>
 
-## <span class="step-badge">STEP⑤</span> Gemini（AI）でSEOタイトル作成（80文字） <span class="time-badge">3:51~</span>
-
-### 📖 操作手順
 1. Yahoo!フリマの日本語商品名をコピーします。
 2. **Google Gemini** を開き、専用プロンプトで英語タイトルを作成します。
-   - **指示プロンプト例**:
-     ```text
-     [日本語商品名]
-     あなたはebay物販のコンサルタントです。SEOを意識し、この商品の売れるebay titleを80文字以内で作成してください。
-     ```
+
+<div class="copy-box">
+<pre>[日本語商品名を貼り付け]
+
+あなたはebay物販のコンサルタントです。
+SEOを意識し、海外のバイヤーが検索するキーワードを網羅して、この商品の売れるebay titleを80文字以内で作成してください。</pre>
+<button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText); this.innerText='コピー完了!'; setTimeout(()=>this.innerText='コピー', 2000);">コピー</button>
+</div>
+
 3. 生成された英文タイトルをコピーし、eShipの「商品名」欄に貼り付けます。
-4. **【最重要】文字数が80文字以内** に収まっていることを確認します。オーバーしている場合はGeminiに「文字数が多いので80文字以内に短縮して」と指示して再生成します。
+4. **【最重要】半角80文字以内** に収まっていることを確認します。オーバーしている場合はGeminiに「80文字以内で短縮して」と指示してください。
 
-> [!TIP]
-> タイトルにはブランド名、モデル型番、対応機種、カラー、キャラクター名などが漏れなく入っているか確認しましょう。  
-> 詳しいプロンプト集は [Geminiを使ったタイトル作成テクニック（80文字調整・プロンプト集）（仮）](guide_gemini_title.md) をご覧ください。
+※プロンプトの調整方法は [Geminiタイトル作成テクニック（仮）](guide_gemini_title.md) をご覧ください。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 06</span>
+  <span class="step-title">メルカリから画像収集・eShipへ登録</span>
+</div>
 
-## <span class="step-badge">STEP⑥</span> メルカリから画像収集・eShipへ登録 <span class="time-badge">4:49~</span>
-
-### 📖 操作手順
 1. **メルカリ** で商品名を検索し、絞り込み条件で **「新品・未使用」**、販売状況で **「売り切れ（SOLD）」** にチェックを入れます。
 2. パッケージや本体が綺麗に、鮮明に写っている画像を**複数枚（推奨2枚以上）**選定します。
-3. 画像をPCにダウンロードします（画像ダウンロード拡張機能などの活用を推奨）。
-4. eShipのポップアップ画面にダウンロードした画像をドラッグ＆ドロップしてアップロードします。
+3. 画像をPCにダウンロードし、eShip画面の画像アップロード欄にドラッグ＆ドロップします。
+</div>
 
-> [!NOTE]
-> 外注先スタッフ様が魅力的な画像を選ぶことで、売れ行きが大きく変わります。商品全体、裏面、付属品がわかる画像を選定してください。
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 07</span>
+  <span class="step-title">Custom Label（SKU）とShipping Policy設定</span>
+</div>
 
----
-
-## <span class="step-badge">STEP⑦</span> Custom Label（SKU）とShipping Policy設定 <span class="time-badge">5:15~ / 5:34~</span>
-
-### 📖 操作手順
-1. **Custom Label (SKU) の入力**:
+1. **Custom Label (SKU)**:
    - スプレッドシート **B列（リサーチ担当者名）**（例: `yukan`）をコピーし、eShipの「Custom Label (SKU)」欄に貼り付けます。
-2. **Shipping Policy の選択**:
-   - スプレッドシートの **「送料設定」タブ** を開きます。
-   - 出品価格（ドル）を入力し、算出された推奨ポリシー名（例: `**EXP SpeedPak Ex $75-99.9`）をコピーしてeShipの「Shipping Policy」欄に貼り付けます。
+2. **Shipping Policy**:
+   - スプレッドシートの **「送料設定」タブ** を開き、出品価格（ドル）から推奨ポリシー名（例: `**EXP SpeedPak Ex $75-99.9`）をコピーして貼り付けます。
 3. **重量設定**:
-   - パッケージ重量欄に指定の数値（例: `2`）、単位に **`lbs`** を選択します。
+   - パッケージ重量欄に指定値（例: `2`）、単位に **`lbs`** を設定します。
 
-> [!IMPORTANT]
-> 詳しい判定ルールは [Shipping Policyと重量の選び方（価格帯ごとの判定ルール）（仮）](guide_shipping_policy.md) を確認してください。
+※詳しい選び方は [Shipping Policyの選び方（仮）](guide_shipping_policy.md) を確認してください。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 08</span>
+  <span class="step-title">eBay出品ページへ転記・Item Specifics・広告設定</span>
+</div>
 
-## <span class="step-badge">STEP⑧</span> eBay出品ページへ転記・Item Specifics・広告設定 <span class="time-badge">6:22~ / 7:15~</span>
-
-### 📖 操作手順
 1. eShip下部の **「Listing転記」** ボタンをクリックし、eBayの出品画面を開きます。
-2. **Condition（状態）**:
-   - 新品の場合は **「New」** を選択。中古の場合は **「Used」** を選択し、詳細説明文を記載。
-3. **Item Specifics（商品詳細項目）**:
-   - 「Suggested item specifics」を「Apply all」で一括適用。
-   - 必須項目（Platform, Model, Item Weight等）を埋めます。
+2. **Condition**:
+   - 新品は **「New」**、中古は **「Used」**（状態説明文を入力）。
+3. **Item Specifics**:
+   - Suggested item specifics を「Apply all」で一括反映。
    - **`Country of Origin` は必ず「Japan」** を選択。
    - 不明な項目は「Does not apply」または「N/A」を選択。
-4. **画像のトリミング・調整**:
-   - 余白が多い画像はトリミングし、明るさを整えます。
+4. **画像のトリミング**: 余白を整えて保存。
 5. **広告設定（Promoted Listing）**:
-   - Generalタブで **「Listing ad rate」を必ず「2%」** に設定します。
+   - Generalタブで **「Listing ad rate」を必ず「2%」** に設定。
 
-> [!IMPORTANT]
-> 状態説明や必須項目の選び方は [Condition（状態）とItem Specificsの入力ルール（仮）](guide_item_specifics.md) を参照してください。
+※詳細は [Item Specifics入力ルール（仮）](guide_item_specifics.md) を参照してください。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 09</span>
+  <span class="step-title">最終確認・出品実行（List it）</span>
+</div>
 
-## <span class="step-badge">STEP⑨</span> 最終確認・出品実行（List it） <span class="time-badge">8:19~</span>
-
-### 📖 出品前チェックリスト
-出品ボタンを押す前に、以下の項目を上から下まで再確認します：
+出品ボタンを押す前に、以下のチェックリストを再確認します：
 
 - [ ] タイトルが80文字以内で、適切な英文になっているか？
 - [ ] 画像が複数枚、鮮明にセットされているか？
@@ -163,15 +158,17 @@ flowchart TD
 - [ ] Promoted Listing が「2%」になっているか？
 
 確認完了後、ページ下部の **「List it」** ボタンをクリックして出品を実行します。
+</div>
 
----
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP 10</span>
+  <span class="step-title">Item IDの記録・フィードバック対応</span>
+</div>
 
-## <span class="step-badge">STEP⑩</span> Item IDの記録・フィードバック対応 <span class="time-badge">8:30~ / 8:40~</span>
-
-### 📖 操作手順
 1. 出品完了画面に表示される **「Item ID（数字の羅列）」** をコピーします。
 2. 管理スプレッドシートの該当行 **「出品状況」列** にItem IDを貼り付けます。
 3. リサーチ担当者から修正依頼やコメントが入っていた場合は、内容を確認して速やかに修正を行い、**日付入りで返信コメント** を記入します。
 
-> [!TIP]
-> コメントの返信方法や修正ルールは [リサーチ担当者からのフィードバック対応とコメント返信（仮）](guide_feedback.md) をご覧ください。
+※返信ルールは [フィードバック対応（仮）](guide_feedback.md) をご覧ください。
+</div>
