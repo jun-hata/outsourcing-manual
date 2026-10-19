@@ -10,6 +10,9 @@ python -m mkdocs build -f manual-v1/mkdocs.yml -d "$ROOT_DIR/site/manual-v1"
 # Build manual-v2 to root site/manual-v2
 python -m mkdocs build -f manual-v2/mkdocs.yml -d "$ROOT_DIR/site/manual-v2"
 
+# Build manual-listing to root site/manual-listing
+python -m mkdocs build -f manual-listing/mkdocs.yml -d "$ROOT_DIR/site/manual-listing"
+
 # Copy index.html to root site/index.html
 cp index.html site/index.html
 
