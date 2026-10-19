@@ -1,0 +1,49 @@
+site_name: 出品外注さん専用マニュアル
+site_url: https://hatakeyama-manual.uk/manual-listing/
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - TOP: index.md
+
+  - 🚀 出品作業の一連の流れ:
+      - 作業フロー（STEP①〜⑩）: workflow.md
+
+  - 📖 詳細ガイド:
+      - 01. eBay最安値の特定と判断基準（Sold/Active・キーワード調整）（仮）: guide_ebay_research.md
+      - 02. Geminiを使ったタイトル作成テクニック（80文字調整・プロンプト集）（仮）: guide_gemini_title.md
+      - 03. Shipping Policyと重量の選び方（価格帯ごとの判定ルール）（仮）: guide_shipping_policy.md
+      - 04. Condition（状態）とItem Specificsの入力ルール（仮）: guide_item_specifics.md
+      - 05. リサーチ担当者からのフィードバック対応とコメント返信（仮）: guide_feedback.md
+
+  - ❓ サポート:
+      - よくある質問・FAQ: 99_faq.md
