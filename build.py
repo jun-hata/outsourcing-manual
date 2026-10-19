@@ -45,7 +45,16 @@ def main():
         print("[ERROR] Failed building manual-v2")
         sys.exit(res_v2.returncode)
 
-    # 3. Copy index.html
+    # 3. Build manual-listing
+    listing_config = os.path.join(root_dir, "manual-listing", "mkdocs.yml")
+    listing_out = os.path.join(site_dir, "manual-listing")
+    print("[BUILD] Building manual-listing...")
+    res_listing = subprocess.run([sys.executable, "-m", "mkdocs", "build", "-f", listing_config, "-d", listing_out], cwd=root_dir)
+    if res_listing.returncode != 0:
+        print("[ERROR] Failed building manual-listing")
+        sys.exit(res_listing.returncode)
+
+    # 4. Copy index.html
     src_index = os.path.join(root_dir, "index.html")
     dst_index = os.path.join(site_dir, "index.html")
     if os.path.exists(src_index):

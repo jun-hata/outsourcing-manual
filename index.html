@@ -25,6 +25,11 @@
       --accent-v2-glow: rgba(99, 102, 241, 0.35);
       --badge-v1: rgba(56, 189, 248, 0.15);
       --badge-v2: rgba(99, 102, 241, 0.25);
+      --card-bg-listing: rgba(16, 185, 129, 0.12);
+      --card-border-listing: rgba(16, 185, 129, 0.35);
+      --accent-listing: #10b981;
+      --accent-listing-glow: rgba(16, 185, 129, 0.35);
+      --badge-listing: rgba(16, 185, 129, 0.2);
     }
 
     * {
@@ -73,7 +78,7 @@
     }
 
     .container {
-      max-width: 960px;
+      max-width: 1180px;
       width: 100%;
       z-index: 1;
       text-align: center;
@@ -160,6 +165,18 @@
       box-shadow: 0 25px 35px -10px rgba(99, 102, 241, 0.4);
     }
 
+    .card-listing {
+      background: var(--card-bg-listing);
+      border: 1px solid var(--card-border-listing);
+      box-shadow: 0 10px 25px -5px var(--accent-listing-glow);
+    }
+
+    .card-listing:hover {
+      transform: translateY(-6px);
+      border-color: #34d399;
+      box-shadow: 0 25px 35px -10px rgba(16, 185, 129, 0.4);
+    }
+
     .card-header {
       display: flex;
       justify-content: space-between;
@@ -187,6 +204,11 @@
       color: #818cf8;
     }
 
+    .icon-listing {
+      background: rgba(16, 185, 129, 0.25);
+      color: #34d399;
+    }
+
     .tag {
       font-size: 0.75rem;
       font-weight: 700;
@@ -206,6 +228,12 @@
       background: var(--badge-v2);
       color: #a5b4fc;
       border: 1px solid rgba(165, 180, 252, 0.4);
+    }
+
+    .tag-listing {
+      background: var(--badge-listing);
+      color: #6ee7b7;
+      border: 1px solid rgba(110, 231, 183, 0.4);
     }
 
     .card-title {
@@ -259,6 +287,17 @@
       box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
     }
 
+    .btn-listing {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .card-listing:hover .btn-listing {
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+    }
+
     footer {
       font-size: 0.875rem;
       color: #64748b;
@@ -279,10 +318,10 @@
   <div class="container">
     <header>
       <div class="logo-badge">
-        <span>📖</span> Hatakeyama Research Portal
+        <span>📖</span> Hatakeyama Outsourcing Portal
       </div>
-      <h1>リサーチ外注さん専用ポータル</h1>
-      <p class="subtitle">採用時期に応じたマニュアルを選択してご確認ください。</p>
+      <h1>外注さん専用業務ポータル</h1>
+      <p class="subtitle">担当業務や採用時期に応じたマニュアルを選択してご確認ください。</p>
     </header>
 
     <div class="grid">
@@ -291,11 +330,11 @@
         <div>
           <div class="card-header">
             <div class="icon-box icon-v1">📚</div>
-            <span class="tag tag-v1">旧版マニュアル</span>
+            <span class="tag tag-v1">リサーチ（旧版）</span>
           </div>
-          <h2 class="card-title">2026年8月以前<br>採用者向け</h2>
+          <h2 class="card-title">リサーチ外注<br>2026年8月以前</h2>
           <p class="card-desc">
-            2026年8月より前にご採用・稼働を開始された外注スタッフ専用のマニュアルです。
+            2026年8月より前にご採用・稼働を開始されたリサーチ外注スタッフ専用のマニュアルです。
           </p>
         </div>
         <div class="btn btn-v1">
@@ -309,15 +348,33 @@
         <div>
           <div class="card-header">
             <div class="icon-box icon-v2">🚀</div>
-            <span class="tag tag-v2">新版マニュアル</span>
+            <span class="tag tag-v2">リサーチ（新版）</span>
           </div>
-          <h2 class="card-title">2026年8月以降<br>採用者向け</h2>
+          <h2 class="card-title">リサーチ外注<br>2026年8月以降</h2>
           <p class="card-desc">
-            2026年8月以降にご採用された新しい外注スタッフ向けのマニュアルです。（最新版）
+            2026年8月以降にご採用された新しいリサーチ外注スタッフ向けのマニュアルです。
           </p>
         </div>
         <div class="btn btn-v2">
           <span>新版マニュアルを開く</span>
+          <span>→</span>
+        </div>
+      </a>
+
+      <!-- Listing Card -->
+      <a href="/manual-listing/" onclick="window.location.href='/manual-listing/'; return true;" class="card card-listing" id="link-manual-listing">
+        <div>
+          <div class="card-header">
+            <div class="icon-box icon-listing">📦</div>
+            <span class="tag tag-listing">出品マニュアル</span>
+          </div>
+          <h2 class="card-title">出品外注さん向け<br>出品作業マニュアル</h2>
+          <p class="card-desc">
+            リサーチ済み商品をeBayへ出品するための一連の作業マニュアルです。（最新版）
+          </p>
+        </div>
+        <div class="btn btn-listing">
+          <span>出品マニュアルを開く</span>
           <span>→</span>
         </div>
       </a>
