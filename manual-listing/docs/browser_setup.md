@@ -22,7 +22,7 @@
 Google Chromeを推奨している理由は以下の通りです。
 
 <div class="example-box" markdown="1">
-- 拡張機能が豊富（画像一括ダウンロードやeShipなど）  
+- 拡張機能が豊富  
 - 出品・管理ツールとの相性が良い  
 - 動作が安定している  
 </div>
@@ -44,10 +44,9 @@ Google Chromeを推奨している理由は以下の通りです。
 ### 出品作業でよく使用するページ例
 
 <div class="example-box" markdown="1">
-- 管理用Googleスプレッドシート  
+- スプレッドシート  
 - eBay公式サイト  
 - e-ship（詳細はこちら → [在庫管理ツール【e-ship】とは](env_eship_login.md)）  
-- メルカリ / Yahoo!フリマ（仕入れ確認・画像収集用）  
 - Google Gemini（AIタイトル作成用）  
 </div>
 
