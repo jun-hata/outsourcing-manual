@@ -31,7 +31,11 @@ nav:
   - TOP: index.md
 
   - 事前準備:
-      - 必要なツール・準備: prep_tools.md
+      - 作業開始準備: required_info.md
+      - ブラウザについて: browser_setup.md
+      - 各種拡張機能導入: env_extensions.md
+      - ebayのアカウント作成: env_ebay_login.md
+      - e-shipとは: env_eship_login.md
 
   - 出品作業フロー:
       - 出品手順（STEP①〜⑦）: workflow.md
