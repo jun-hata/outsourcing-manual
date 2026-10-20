@@ -2,22 +2,12 @@
 
 ## 基本報酬
 
-リサーチ業務の報酬は以下の通りです。
+出品業務の報酬は以下の通りです。
 
-<div class="compare-grid" markdown="1">
-<div class="compare-card compare-card--primary" markdown="1">
-<div class="compare-card__title">⭐ リストアップ報酬</div>
+<div class="compare-card compare-card--primary" style="max-width: 420px; margin: 16px 0;" markdown="1">
+<div class="compare-card__title">⭐ 報酬</div>
 
-**・1件につき：60円**
-</div>
-
-<div class="compare-card compare-card--secondary" markdown="1">
-<div class="compare-card__title">⭐ 成果報酬（インセンティブ）</div>
-
-- 本業務を開始してから1か月経過後  
-- **販売利益の10％を還元**  
-  ※月末の精算時に、実仕入れ値・送料・手数料等を差し引いて確定した<span class="marker-yellow">「最終利益の10％」</span>が対象です。
-</div>
+**・1出品につき：30円**
 </div>
 
 ---
@@ -55,7 +45,7 @@
 
 報酬のお支払いは、請求書を通じて行っています。
 
-通常、請求書はワーカー様ご自身で作成したものを管理者へ送っていただく形式となりますが、本業務では、実際に行っていただいたリサーチ件数とインセンティブをこちらで計算して請求書を作成し、ChatworkからExcelファイルでお送りします。
+通常、請求書はワーカー様ご自身で作成したものを管理者へ送っていただく形式となりますが、本業務では、実際に行っていただいた出品件数をこちらで計算して請求書を作成し、ChatworkからExcelファイルでお送りします。
 
 ご確認いただいて問題がなければ、そのまま再添付して送り返していただくようにお願いいたします。
 
