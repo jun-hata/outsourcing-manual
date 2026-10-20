@@ -1,0 +1,63 @@
+# 報酬について
+
+## 基本報酬
+
+リサーチ業務の報酬は以下の通りです。
+
+<div class="compare-grid" markdown="1">
+<div class="compare-card compare-card--primary" markdown="1">
+<div class="compare-card__title">⭐ リストアップ報酬</div>
+
+**・1件につき：60円**
+</div>
+
+<div class="compare-card compare-card--secondary" markdown="1">
+<div class="compare-card__title">⭐ 成果報酬（インセンティブ）</div>
+
+- 本業務を開始してから1か月経過後  
+- **販売利益の10％を還元**  
+  ※月末の精算時に、実仕入れ値・送料・手数料等を差し引いて確定した<span class="marker-yellow">「最終利益の10％」</span>が対象です。
+</div>
+</div>
+
+---
+
+## 支払いスケジュール
+
+<div class="example-box" markdown="1">
+- **月末締め**  
+- **翌月10日支払い**  
+</div>
+
+---
+
+## 支払い方法
+
+以下の方法でのお支払いを予定しています。
+
+<div class="example-box" markdown="1">
+- 楽天銀行(※1)  
+- PayPay  
+- クラウドワークスやランサーズなどの外部サイト(※2)  
+
+<p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+※1 その他の銀行や支払い方法をご希望の場合はご相談ください。
+</p>
+</div>
+
+<div class="point-box point-box--yellow" markdown="1">
+<span class="red-text">※2 クラウドソーシングサイトを通じてお受け取りをご希望の場合は、サイト内で発生する手数料はワーカー様負担とさせていただきますのでご了承ください。</span>
+</div>
+
+---
+
+## 請求書について
+
+報酬のお支払いは、請求書を通じて行っています。
+
+通常、請求書はワーカー様ご自身で作成したものを管理者へ送っていただく形式となりますが、本業務では、実際に行っていただいたリサーチ件数とインセンティブをこちらで計算して請求書を作成し、ChatworkからExcelファイルでお送りします。
+
+ご確認いただいて問題がなければ、そのまま再添付して送り返していただくようにお願いいたします。
+
+また請求書にはご住所やお名前等必要事項の入力がありますので、[作業開始準備](required_info.md) にてご説明いたします。
+

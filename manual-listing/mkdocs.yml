@@ -30,6 +30,10 @@ markdown_extensions:
 nav:
   - TOP: index.md
 
+  - はじめに:
+      - 報酬について: compensation.md
+      - 禁止事項: prohibited.md
+
   - 事前準備:
       - 作業開始準備: required_info.md
       - ブラウザについて: browser_setup.md
