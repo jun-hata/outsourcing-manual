@@ -42,6 +42,7 @@ nav:
   - 専用ツールの準備:
       - 各種拡張機能導入: env_extensions.md
       - 在庫管理ツール【e-ship】とは: env_eship_login.md
+      - リサーチサポートツールとは: tool_support_setup.md
 
   - 出品作業フロー:
       - 出品手順（STEP①〜⑦）: workflow.md
