@@ -1,4 +1,4 @@
-# e-shipとは
+# 在庫管理ツール【e-ship】とは
 
 <div class="point-box" markdown="1">
 本項ではe-shipについてご説明します。  
