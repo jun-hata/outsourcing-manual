@@ -116,7 +116,17 @@ AIへ定型文の指示を送る場合などに使用します。
 👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/double-click-image-downlo/piheafhalbmhiaffagiaehdlnhgphcpd)
 
 保存したい画像の上でダブルクリックするだけで、PCのダウンロードフォルダに画像が保存されます。  
-フリマサイトや一部のECサイトでは画像のダウンロードができませんが、この拡張機能を使用することでダウンロードが可能です。出品作業時のメルカリからの商品画像収集などに活用してください。
+フリマサイトや一部のECサイトでは画像のダウンロードができませんが、この拡張機能を使用することでダウンロードが可能です。  
+出品作業時のメルカリからの商品画像収集などに活用してください。
+
+---
+
+### ⑥ Image downloader - Imageye
+
+👉 [Chromeウェブストアで開く](https://chromewebstore.google.com/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm)
+
+この拡張機能を使うと、ページ上にあるすべての画像を一覧で表示し、選択したものだけダウンロードができます。  
+「Double Click Image Downloader」と同じく、出品画像のダウンロードに使用します。
 
 ---
 
