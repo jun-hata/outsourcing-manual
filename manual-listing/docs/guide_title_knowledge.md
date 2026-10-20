@@ -1,0 +1,5 @@
+# タイトル付けの必要知識
+
+<div class="point-box" markdown="1">
+※本ページは現在準備中です。
+</div>

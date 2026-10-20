@@ -49,11 +49,10 @@ nav:
       - 出品実践動画: listing_video.md
 
   - 詳細ガイド:
-      - 最安値リサーチの判断基準（仮）: guide_ebay_research.md
-      - Geminiタイトル作成テクニック（仮）: guide_gemini_title.md
-      - Shipping Policyの選び方（仮）: guide_shipping_policy.md
-      - Item Specifics入力ルール（仮）: guide_item_specifics.md
-      - フィードバック対応（仮）: guide_feedback.md
+      - ①最安値を確認しよう: guide_check_lowest_price.md
+      - ②タイトル付けの必要知識: guide_title_knowledge.md
+      - ③商品画像について: guide_item_images.md
+      - ④出品ページの全体像と解説: guide_listing_page_overview.md
 
   - トラブル対応:
       - よくある質問・FAQ: 99_faq.md

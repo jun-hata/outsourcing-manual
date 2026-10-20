@@ -40,7 +40,7 @@
 重量がずれると送料計算が狂い、赤字出品の原因になります。スプレッドシート記載のグラム数（g）を正確に入力してください。
 </div>
 
-※キーワード調整や価格調査の詳しい基準は [最安値リサーチの判断基準（仮）](guide_ebay_research.md) を参照してください。
+※キーワード調整や価格調査の詳しい基準は [①最安値を確認しよう](guide_check_lowest_price.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">
@@ -90,7 +90,7 @@ SEOを意識し、海外のバイヤーが検索するキーワードを網羅�
    - **Custom Label (SKU)**: スプレッドシートB列の「リサーチ担当者名」（例: `yukan`）を貼り付け。
    - **Shipping Policy**: シートの「送料設定」タブから算出された推奨ポリシー名を貼り付け、パッケージ重量（例: `2`、単位 **`lbs`**）を設定。
 
-※詳細は [Geminiタイトル作成テクニック（仮）](guide_gemini_title.md) や [Shipping Policyの選び方（仮）](guide_shipping_policy.md) を参照してください。
+※詳細は [②タイトル付けの必要知識](guide_title_knowledge.md) や [③商品画像について](guide_item_images.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">
@@ -111,7 +111,7 @@ SEOを意識し、海外のバイヤーが検索するキーワードを網羅�
 5. **広告設定（Promoted Listing）**:
    - Generalタブで **「Listing ad rate」を必ず「2%」** に設定します。
 
-※詳細は [Item Specifics入力ルール（仮）](guide_item_specifics.md) を参照してください。
+※詳細は [④出品ページの全体像と解説](guide_listing_page_overview.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">
@@ -142,6 +142,4 @@ SEOを意識し、海外のバイヤーが検索するキーワードを網羅�
 1. 出品完了画面に表示される **「Item ID（数字の羅列）」** をコピーします。
 2. 管理スプレッドシートの該当行 **「出品状況」列** にItem IDを貼り付けます。
 3. リサーチ担当者から修正依頼やコメントが入っていた場合は、内容を確認して速やかに修正を行い、**日付入りで返信コメント** を記入します。
-
-※返信ルールは [フィードバック対応（仮）](guide_feedback.md) をご覧ください。
 </div>
