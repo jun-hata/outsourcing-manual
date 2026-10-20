@@ -30,6 +30,9 @@ markdown_extensions:
 nav:
   - TOP: index.md
 
+  - 事前準備:
+      - 必要なツール・準備: prep_tools.md
+
   - 出品作業フロー:
       - 出品手順（STEP①〜⑦）: workflow.md
 
