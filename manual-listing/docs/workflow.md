@@ -40,7 +40,7 @@
 重量がずれると送料計算が狂い、赤字出品の原因になります。スプレッドシート記載のグラム数（g）を正確に入力してください。
 </div>
 
-※キーワード調整や価格調査の詳しい基準は [①最安値を確認しよう](guide_check_lowest_price.md) を参照してください。
+※キーワード調整や価格調査の詳しい基準は [最安値を確認しよう](guide_check_lowest_price.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">
@@ -90,7 +90,7 @@ SEOを意識し、海外のバイヤーが検索するキーワードを網羅�
    - **Custom Label (SKU)**: スプレッドシートB列の「リサーチ担当者名」（例: `yukan`）を貼り付け。
    - **Shipping Policy**: シートの「送料設定」タブから算出された推奨ポリシー名を貼り付け、パッケージ重量（例: `2`、単位 **`lbs`**）を設定。
 
-※詳細は [②タイトル付けの必要知識](guide_title_knowledge.md) や [③商品画像について](guide_item_images.md) を参照してください。
+※詳細は [タイトル付けの必要知識](guide_title_knowledge.md) や [商品画像について](guide_item_images.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">
@@ -111,7 +111,7 @@ SEOを意識し、海外のバイヤーが検索するキーワードを網羅�
 5. **広告設定（Promoted Listing）**:
    - Generalタブで **「Listing ad rate」を必ず「2%」** に設定します。
 
-※詳細は [④出品ページの全体像と解説](guide_listing_page_overview.md) を参照してください。
+※詳細は [出品ページの全体像と解説](guide_listing_page_overview.md) を参照してください。
 </div>
 
 <div class="step-card" markdown="1">

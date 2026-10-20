@@ -49,10 +49,11 @@ nav:
       - 出品実践動画: listing_video.md
 
   - 詳細ガイド:
-      - ①最安値を確認しよう: guide_check_lowest_price.md
-      - ②タイトル付けの必要知識: guide_title_knowledge.md
-      - ③商品画像について: guide_item_images.md
-      - ④出品ページの全体像と解説: guide_listing_page_overview.md
+      - 最安値を確認しよう: guide_check_lowest_price.md
+      - 販売価格のルール: guide_price_rules.md
+      - タイトル付けの必要知識: guide_title_knowledge.md
+      - 商品画像について: guide_item_images.md
+      - 出品ページの全体像と解説: guide_listing_page_overview.md
 
   - トラブル対応:
       - よくある質問・FAQ: 99_faq.md
