@@ -128,6 +128,21 @@ AIへ定型文の指示を送る場合などに使用します。
 この拡張機能を使うと、ページ上にあるすべての画像を一覧で表示し、選択したものだけダウンロードができます。  
 「Double Click Image Downloader」と同じく、出品画像のダウンロードに使用します。
 
+#### 使い方
+
+<div class="step-card" markdown="1">
+<div class="step-header">
+  <span class="step-number">STEP</span>
+  <span class="step-title">画像の選択とダウンロード</span>
+</div>
+
+1. 拡張機能アイコンをクリックします。
+2. 右側に表示されたポップアップ内から、ダウンロードしたい画像にチェックを入れて選択します。
+3. ポップアップ上部の **「Download」ボタン** をクリックして一括保存します。
+
+![Imageyeの使い方](images/env_extensions/imageye_usage.png)
+</div>
+
 ---
 
 ## おすすめ拡張機能
