@@ -145,3 +145,17 @@ Google画像検索を使って、個人ブログやレビューサイト、海�
 - **代替画像がどこにも存在しない場合**  
   備考欄に「代替画像が見つかりませんでした」など、代替画像が無かった旨を記入する
 </div>
+
+---
+
+## 代替画像の探し方解説とポイント
+
+代替画像の探し方や選び方のポイントを動画で解説しています。  
+必要に応じて2倍速などでご確認ください。
+
+<iframe width="100%" height="420"
+src="https://www.youtube.com/embed/UVtPlDLRHjA"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
